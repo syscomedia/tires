@@ -87,12 +87,12 @@ export default function ProductPage({ params }: PageProps) {
                   {product.name}
                 </h1>
 
-                <div className="flex items-baseline space-x-4 mb-10">
+                {/* <div className="flex items-baseline space-x-4 mb-10">
                   <span className="text-5xl font-display font-black text-neon-blue italic animate-glow">
                     {product.price} €
                   </span>
                   <span className="text-white/40 text-sm font-bold uppercase tracking-widest">TTC / unité — montage inclus</span>
-                </div>
+                </div> */}
 
                 <p className="text-white/50 text-xl leading-relaxed mb-10 font-medium">
                   {product.description}
