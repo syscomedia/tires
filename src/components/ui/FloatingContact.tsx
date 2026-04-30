@@ -101,14 +101,14 @@ export default function FloatingContact() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full pt-4">
                   <a
-                    href="tel:0100000000"
+                    href="tel:0953439999"
                     className="flex items-center justify-center space-x-4 glass-blue text-white py-6 rounded-3xl font-black italic uppercase tracking-widest text-sm shadow-xl shadow-neon-blue/20 hover:scale-[1.05] transition-all group/btn"
                   >
                     <Phone className="w-6 h-6 text-neon-blue group-hover/btn:rotate-12 transition-transform" />
                     <span>Appeler Direct</span>
                   </a>
                   <a
-                    href="https://wa.me/33100000000"
+                    href="https://wa.me/+330751151984"
                     className="flex items-center justify-center space-x-4 glass-green text-white py-6 rounded-3xl font-black italic uppercase tracking-widest text-sm shadow-xl shadow-green-500/20 hover:scale-[1.05] transition-all group/btn"
                   >
                     <MessageSquare className="w-6 h-6 text-green-500 group-hover/btn:scale-110 transition-transform" />
@@ -117,7 +117,7 @@ export default function FloatingContact() {
                 </div>
 
                 <p className="text-white/10 font-black uppercase text-[8px] tracking-[0.5em]">
-                  PÔLE POSITION 93 • PNEUS SERVICES 93 • ÉPINAY-SUR-SEINE
+                  POLE POSITION • PNEUS SERVICES 93 • ÉPINAY-SUR-SEINE
                 </p>
               </div>
             </div>

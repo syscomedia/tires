@@ -43,7 +43,7 @@ export default function ServicesPage() {
   return (
     <main className="relative flex-1 bg-mesh">
       <Navbar />
-      
+
       <section className="pt-48 pb-24 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
           <motion.div
@@ -54,14 +54,14 @@ export default function ServicesPage() {
             <Sparkles className="w-5 h-5" />
             <span className="font-black uppercase tracking-widest text-sm">Spécialiste Pneus & Entretien 93</span>
           </motion.div>
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-6xl md:text-8xl font-display font-black mb-8 uppercase italic leading-none tracking-tighter text-white"
           >
             NOS <span className="text-gradient">SERVICES</span>
           </motion.h1>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
@@ -76,12 +76,12 @@ export default function ServicesPage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             {services.map((s, i) => (
-              <Link 
-                key={i} 
+              <Link
+                key={i}
                 href={s.href || "#"}
                 className={s.href ? "cursor-pointer" : "cursor-default"}
               >
-                <motion.div 
+                <motion.div
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: i * 0.1 }}
@@ -91,11 +91,11 @@ export default function ServicesPage() {
                   <div className="absolute top-0 right-0 p-8 opacity-[0.03] group-hover:opacity-[0.08] transition-opacity">
                     <s.icon className="w-32 h-32" />
                   </div>
-                  
+
                   <div className="bg-neon-blue/10 p-5 rounded-2xl w-fit mb-10 text-neon-blue group-hover:bg-neon-blue group-hover:text-white transition-all duration-500 shadow-lg shadow-neon-blue/5">
                     <s.icon className="w-8 h-8" />
                   </div>
-                  
+
                   <h3 className="text-3xl font-display font-black text-white mb-6 uppercase italic leading-none group-hover:text-glow transition-all">
                     {s.title}
                   </h3>
@@ -121,18 +121,18 @@ export default function ServicesPage() {
               <p className="text-white/60 text-lg font-medium">Venez directement ou appelez-nous — sans rendez-vous, 7j/7 de 9h à 19h.</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-6 w-full lg:w-auto">
-              <motion.a 
+              <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="tel:+33100000000" 
+                href="tel:0953439999"
                 className="bg-white text-neon-blue px-12 py-6 rounded-2xl font-black uppercase italic tracking-widest text-center shadow-xl hover:bg-neon-blue hover:text-white transition-all text-lg"
               >
                 Appeler l'Atelier
               </motion.a>
-              <motion.a 
+              <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="/contact" 
+                href="/contact"
                 className="glass text-white px-12 py-6 rounded-2xl font-black uppercase italic tracking-widest text-center hover:bg-white/10 transition-all text-lg border-white/5"
               >
                 Nous Contacter

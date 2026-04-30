@@ -30,7 +30,7 @@ export default function LoadingScreen({ onComplete }: { onComplete: () => void }
     >
       {/* Mesh Background for Loader */}
       <div className="absolute inset-0 bg-mesh opacity-50" />
-      
+
       <div className="relative z-10 w-full max-w-xs flex flex-col items-center">
         {/* Animated Logo */}
         <motion.div
@@ -40,8 +40,8 @@ export default function LoadingScreen({ onComplete }: { onComplete: () => void }
           className="mb-12"
         >
           <div className="text-4xl md:text-6xl font-display font-black tracking-tighter italic flex items-center space-x-2">
-            <span className="text-neon-blue drop-shadow-[0_0_15px_rgba(0,242,255,0.5)]">PÔLE</span>
-            <span className="text-white"> POSITION 93</span>
+            <span className="text-neon-blue drop-shadow-[0_0_15px_rgba(0,242,255,0.5)]">POLE</span>
+            <span className="text-white"> POSITION</span>
           </div>
           <div className="h-px w-full bg-gradient-to-r from-transparent via-neon-blue to-transparent mt-2 opacity-50" />
         </motion.div>
@@ -52,18 +52,18 @@ export default function LoadingScreen({ onComplete }: { onComplete: () => void }
             <span className="text-neon-blue font-black italic text-[10px] uppercase tracking-[0.4em]">Initialisation</span>
             <span className="text-white font-display font-black italic text-2xl leading-none">{progress}%</span>
           </div>
-          
+
           <div className="h-[6px] w-full bg-white/5 rounded-full overflow-hidden border border-white/5 p-[1px]">
-            <motion.div 
+            <motion.div
               className="h-full bg-gradient-to-r from-neon-blue via-neon-blue-hover to-amber-gold rounded-full shadow-[0_0_15px_rgba(0,242,255,0.3)]"
               initial={{ width: 0 }}
               animate={{ width: `${progress}%` }}
               transition={{ ease: "linear" }}
             />
           </div>
-          
+
           <p className="text-white/20 font-black uppercase text-[8px] tracking-[0.5em] text-center animate-pulse">
-            Pôle Position 93 — Épinay-sur-Seine
+            POLE POSITION — Épinay-sur-Seine
           </p>
         </div>
       </div>

@@ -4,8 +4,8 @@ import { MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function WhatsAppButton() {
-  const phoneNumber = "33100000000";
-  const message = "Bonjour Pôle Position 93, j'aimerais avoir des renseignements sur vos pneus et services.";
+  const phoneNumber = "+330751151984";
+  const message = "Bonjour POLE POSITION, j'aimerais avoir des renseignements sur vos pneus et services.";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (

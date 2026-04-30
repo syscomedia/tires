@@ -127,14 +127,14 @@ export default function ProductPage({ params }: PageProps) {
                 {/* Actions */}
                 <div className="flex flex-col sm:flex-row gap-4 mt-auto">
                   <a
-                    href="tel:+33100000000"
+                    href="tel:0953439999"
                     className="flex-1 bg-neon-blue text-white py-6 rounded-2xl font-black italic uppercase tracking-widest flex items-center justify-center space-x-3 hover:bg-neon-blue-hover transition-all shadow-2xl shadow-neon-blue/20 text-lg"
                   >
                     <Phone className="w-6 h-6" />
                     <span>APPELER POUR RÉSERVER</span>
                   </a>
                   <a
-                    href="https://wa.me/33100000000"
+                    href="https://wa.me/+330751151984"
                     className="glass text-white px-8 py-6 rounded-2xl font-black italic uppercase tracking-widest flex items-center justify-center space-x-3 hover:bg-white/10 transition-all border-white/5"
                   >
                     <MessageSquare className="w-6 h-6" />
@@ -162,7 +162,7 @@ export default function ProductPage({ params }: PageProps) {
             <div className="glass p-10 md:p-16 rounded-[3rem] border-white/5 space-y-10">
               <div className="space-y-6 text-white/50 text-xl leading-relaxed font-medium">
                 <p>
-                  <span className="text-white font-bold italic">{product.name}</span> fait partie de notre sélection rigoureuse chez Pôle Position 93. Chaque pneu en stock est contrôlé avant montage par nos techniciens certifiés à Épinay-sur-Seine.
+                  <span className="text-white font-bold italic">{product.name}</span> fait partie de notre sélection rigoureuse chez POLE POSITION. Chaque pneu en stock est contrôlé avant montage par nos techniciens certifiés à Épinay-sur-Seine.
                 </p>
                 <p>
                   Que vous rouliez en ville, sur autoroute ou sur terrain mixte, ce pneu est conçu pour vous offrir la meilleure combinaison de sécurité, longévité et performance pour votre véhicule.

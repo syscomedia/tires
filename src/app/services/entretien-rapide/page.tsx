@@ -3,12 +3,12 @@
 import Navbar from "@/components/sections/Navbar";
 import Footer from "@/components/sections/Footer";
 import { motion } from "framer-motion";
-import { 
-  PenTool as Tool, 
-  ShieldCheck, 
-  Wrench, 
-  Zap, 
-  Sparkles, 
+import {
+  PenTool as Tool,
+  ShieldCheck,
+  Wrench,
+  Zap,
+  Sparkles,
   ArrowLeft,
   CircleCheckBig
 } from "lucide-react";
@@ -18,7 +18,7 @@ export default function EntretienPage() {
   return (
     <main className="relative flex-1 bg-mesh min-h-screen">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="pt-48 pb-24 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 relative z-10">
@@ -27,7 +27,7 @@ export default function EntretienPage() {
             animate={{ opacity: 1, x: 0 }}
             className="mb-8"
           >
-            <Link 
+            <Link
               href="/services"
               className="inline-flex items-center space-x-2 text-white/60 hover:text-neon-blue transition-colors font-medium uppercase tracking-widest text-sm"
             >
@@ -44,8 +44,8 @@ export default function EntretienPage() {
             <Zap className="w-5 h-5" />
             <span className="font-black uppercase tracking-widest text-sm text-glow">Intervention Express</span>
           </motion.div>
-          
-          <motion.h1 
+
+          <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-7xl lg:text-8xl font-display font-black mb-8 uppercase italic leading-[0.9] tracking-tighter text-white"
@@ -53,8 +53,8 @@ export default function EntretienPage() {
             ENTRETIEN <br />
             <span className="text-gradient">RAPIDE 7J/7</span>
           </motion.h1>
-          
-          <motion.p 
+
+          <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
@@ -74,7 +74,7 @@ export default function EntretienPage() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -100,7 +100,7 @@ export default function EntretienPage() {
               </div>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -146,8 +146,8 @@ export default function EntretienPage() {
               Venez quand vous voulez. Notre équipe est prête à prendre soin de votre véhicule sans rendez-vous.
             </p>
             <div className="flex flex-wrap justify-center gap-6">
-              <Link 
-                href="tel:+33100000000"
+              <Link
+                href="tel:0953439999"
                 className="bg-neon-blue text-white px-10 py-5 rounded-2xl font-black uppercase italic tracking-widest hover:bg-white hover:text-neon-blue transition-all shadow-xl shadow-neon-blue/20"
               >
                 Nous Appeler

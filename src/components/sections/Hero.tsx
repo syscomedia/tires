@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight, CheckCircle2, Play, Phone } from "lucide-react";
+import { ArrowRight, CheckCircle2, Play, Phone, Wrench, MapPin } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export default function Hero() {
@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <img
           src="/images/categories/TIRES.png"
-          alt="Pôle Position 93"
+          alt="POLE POSITION"
           className="absolute inset-0 w-full h-full object-cover opacity-50 scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-carbon-black via-carbon-black/80 to-transparent" />
@@ -38,7 +38,7 @@ export default function Hero() {
         className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-amber-gold/5 rounded-full blur-[120px] z-0"
       />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 w-full pt-52 md:pt-0">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 w-full pt-80 md:pt-24">
         <div className="max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -55,13 +55,40 @@ export default function Hero() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-neon-blue opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-neon-blue"></span>
               </span>
-              <span>Pôle Position 93 — Épinay-sur-Seine</span>
+              <span>POLE POSITION — Épinay-sur-Seine</span>
             </motion.div>
 
             <h1 className="text-5xl md:text-8xl font-display font-black text-white mb-6 leading-[0.95] tracking-tight italic">
               VOS PNEUS, <br />
               <span className="text-gradient animate-glow drop-shadow-[0_0_15px_rgba(0,242,255,0.5)]">NOTRE PASSION.</span>
             </h1>
+
+            {/* Promo Banner */}
+            <motion.div
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.8, duration: 0.8 }}
+              className="mb-8 relative group"
+            >
+              <div className="absolute -inset-1 bg-gradient-to-r from-neon-blue to-amber-gold rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
+              <div className="relative flex items-center bg-carbon-black border border-white/10 px-4 md:px-6 py-3 md:py-4 rounded-2xl space-x-3 md:space-x-4">
+                <div className="bg-neon-blue/20 p-2 md:p-3 rounded-xl">
+                  <Wrench className="w-5 h-5 md:w-6 md:h-6 text-neon-blue" />
+                </div>
+                <div>
+                  <div className="text-neon-blue font-black uppercase tracking-tighter text-sm md:text-lg leading-none mb-1 italic">
+                    FRANCHISE OFFERTE
+                  </div>
+                  <div className="text-white/60 text-[8px] md:text-xs font-bold uppercase tracking-widest leading-none">
+                    + 2 PNEUS OFFERTS POUR CHAQUE PARE-BRISE
+                  </div>
+                </div>
+                <div className="flex-1" />
+                <div className="hidden sm:flex bg-amber-gold/20 text-amber-gold px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest border border-amber-gold/30">
+                  OFFRE LIMITÉE
+                </div>
+              </div>
+            </motion.div>
 
             <div className="text-xl md:text-2xl text-white/60 mb-10 leading-relaxed max-w-xl font-medium flex flex-wrap gap-x-[0.3em] items-center">
               {"Montage, équilibrage et entretien automobile. Pneus neufs & occasion. Ouvert 7j/7 de 9h à 19h.".split(" ").map((word, i) => {
@@ -87,14 +114,14 @@ export default function Hero() {
                 );
               })}
               <motion.a
-                href="tel:0100000000"
+                href="tel:0953439999"
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 2 }}
                 className="inline-flex items-center space-x-2 bg-neon-blue/10 text-neon-blue px-4 py-1 rounded-full border border-neon-blue/20 hover:bg-neon-blue hover:text-white transition-all ml-2"
               >
                 <Phone className="w-4 h-4" />
-                <span className="font-black italic">01 00 00 00 00</span>
+                <span className="font-black italic">09 53 43 99 99</span>
               </motion.a>
             </div>
 
@@ -102,7 +129,7 @@ export default function Hero() {
               {[
                 "Pneus Neufs & Occasion",
                 "Montage & Équilibrage",
-                "Freinage & Plaquettes",
+                "Service à Domicile 7j/7",
                 "Entretien Rapide 7j/7",
               ].map((item, index) => (
                 <motion.div
@@ -161,20 +188,6 @@ export default function Hero() {
         </motion.div>
       </div>
 
-      {/* Scroll Indicator */}
-      <motion.div
-        animate={{ y: [0, 10, 0] }}
-        transition={{ repeat: Infinity, duration: 2 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 z-10 hidden md:block"
-      >
-        <div className="w-6 h-10 border-2 border-white/20 rounded-full flex justify-center p-1 backdrop-blur-sm">
-          <motion.div
-            animate={{ height: ["20%", "60%", "20%"] }}
-            transition={{ repeat: Infinity, duration: 1.5 }}
-            className="w-1 bg-neon-blue rounded-full"
-          />
-        </div>
-      </motion.div>
     </section>
   );
 }

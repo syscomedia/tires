@@ -3,13 +3,13 @@
 import Navbar from "@/components/sections/Navbar";
 import Footer from "@/components/sections/Footer";
 import { motion } from "framer-motion";
-import { 
-  Wind, 
-  ShieldCheck, 
-  Wrench, 
-  Activity, 
-  Zap, 
-  Sparkles, 
+import {
+  Wind,
+  ShieldCheck,
+  Wrench,
+  Activity,
+  Zap,
+  Sparkles,
   ArrowLeft,
   Info,
   CircleCheckBig,
@@ -27,7 +27,7 @@ export default function EquilibragePage() {
     },
     {
       title: "Réparation",
-      desc: "Un pneu ne se consulte pas uniquement en cas de grosses pannes ! Contactez PÔLE POSITION 93 pour les cas de fuite légère d'air au sein de vos pneus, de chocs ou de déformations légères. Nos techniciens sauront vous aider !",
+      desc: "Un pneu ne se consulte pas uniquement en cas de grosses pannes ! Contactez POLE POSITION pour les cas de fuite légère d'air au sein de vos pneus, de chocs ou de déformations légères. Nos techniciens sauront vous aider !",
       icon: Wrench
     },
     {
@@ -37,7 +37,7 @@ export default function EquilibragePage() {
     },
     {
       title: "Conseils",
-      desc: "PÔLE POSITION 93 vous conseille sur l'entretien de vos pneus et l'anticipation des risques et des dangers qu'ils peuvent encourir. Ne vous laissez plus surprendre et suivez nos bons plans !",
+      desc: "POLE POSITION vous conseille sur l'entretien de vos pneus et l'anticipation des risques et des dangers qu'ils peuvent encourir. Ne vous laissez plus surprendre et suivez nos bons plans !",
       icon: Info
     }
   ];
@@ -45,7 +45,7 @@ export default function EquilibragePage() {
   return (
     <main className="relative flex-1 bg-mesh min-h-screen">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="pt-48 pb-24 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 relative z-10">
@@ -54,7 +54,7 @@ export default function EquilibragePage() {
             animate={{ opacity: 1, x: 0 }}
             className="mb-8"
           >
-            <Link 
+            <Link
               href="/services"
               className="inline-flex items-center space-x-2 text-white/60 hover:text-neon-blue transition-colors font-medium uppercase tracking-widest text-sm"
             >
@@ -71,8 +71,8 @@ export default function EquilibragePage() {
             <Target className="w-5 h-5" />
             <span className="font-black uppercase tracking-widest text-sm text-glow">Précision & Confort</span>
           </motion.div>
-          
-          <motion.h1 
+
+          <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-7xl lg:text-8xl font-display font-black mb-8 uppercase italic leading-[0.9] tracking-tighter text-white"
@@ -80,14 +80,14 @@ export default function EquilibragePage() {
             ÉQUILIBRAGE DE VOS <br />
             <span className="text-gradient">PNEUS ET VÉHICULE</span>
           </motion.h1>
-          
-          <motion.p 
+
+          <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
             className="text-white/60 max-w-2xl text-xl leading-relaxed font-medium mb-12"
           >
-            ZOOM SUR L’ÉQUILIBRAGE DE VOS PNEUS. Après une crevaison ou l’achat de nouveaux pneus, leur installation nécessite l’expertise de professionnels comme PÔLE POSITION 93.
+            ZOOM SUR L’ÉQUILIBRAGE DE VOS PNEUS. Après une crevaison ou l’achat de nouveaux pneus, leur installation nécessite l’expertise de professionnels comme POLE POSITION.
           </motion.p>
         </div>
 
@@ -101,7 +101,7 @@ export default function EquilibragePage() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-32">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -127,7 +127,7 @@ export default function EquilibragePage() {
               </div>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -142,13 +142,13 @@ export default function EquilibragePage() {
               </h2>
               <div className="space-y-6 text-white/50 leading-relaxed font-medium">
                 <p>
-                  Pour éviter toute sensation de vibration, surtout dans les périodes de l’année les plus exigeantes, procédez à un équilibrage chez PÔLE POSITION 93.
+                  Pour éviter toute sensation de vibration, surtout dans les périodes de l’année les plus exigeantes, procédez à un équilibrage chez POLE POSITION.
                 </p>
                 <p>
                   L’équilibrage de vos pneus peut être réalisé par notre garage sans rendez-vous ou en complément d’achat de pneus. Profitez de nos prix discount !
                 </p>
                 <p>
-                  Rendez-vous chez PÔLE POSITION 93 et faites vérifier le parallélisme de votre auto pour une longévité maximale de vos équipements.
+                  Rendez-vous chez POLE POSITION et faites vérifier le parallélisme de votre auto pour une longévité maximale de vos équipements.
                 </p>
               </div>
             </motion.div>
@@ -194,12 +194,12 @@ export default function EquilibragePage() {
               <span className="text-neon-blue text-2xl md:text-3xl">TENUE DE ROUTE</span>
             </h2>
             <p className="text-white/60 text-lg mb-12 font-medium leading-relaxed">
-              Nos experts assurent un équilibrage haute précision pour votre confort et votre sécurité. 
-              Venez sans rendez-vous dans notre centre PÔLE POSITION 93.
+              Nos experts assurent un équilibrage haute précision pour votre confort et votre sécurité.
+              Venez sans rendez-vous dans notre centre POLE POSITION.
             </p>
             <div className="flex flex-wrap justify-center gap-6">
-              <Link 
-                href="tel:+33100000000"
+              <Link
+                href="tel:0953439999"
                 className="bg-neon-blue text-white px-10 py-5 rounded-2xl font-black uppercase italic tracking-widest hover:bg-white hover:text-neon-blue transition-all shadow-xl shadow-neon-blue/20"
               >
                 Appeler l'Atelier

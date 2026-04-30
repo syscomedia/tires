@@ -15,25 +15,25 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   metadataBase: new URL("https://poleposition-pneus93.fr"),
   title: {
-    default: "Pôle Position 93 | Montage Pneus à Épinay-sur-Seine",
-    template: "%s | Pôle Position 93 Pneus 93",
+    default: "POLE POSITION | Montage Pneus à Épinay-sur-Seine",
+    template: "%s | POLE POSITION Pneus 93",
   },
-  description: "Pôle Position 93 : Montage et équilibrage de pneus neufs et d'occasion, freinage, entretien automobile. Ouvert 7j/7 de 9h à 19h à Épinay-sur-Seine (93).",
+  description: "POLE POSITION : Montage et équilibrage de pneus neufs et d'occasion, freinage, entretien automobile. Ouvert 7j/7 de 9h à 19h à Épinay-sur-Seine (93).",
   keywords: ["pneus", "montage pneus", "équilibrage", "freinage", "plaquettes", "entretien auto", "Épinay-sur-Seine", "93", "Seine-Saint-Denis", "pneus neufs", "pneus occasion"],
-  authors: [{ name: "Pôle Position 93" }],
+  authors: [{ name: "POLE POSITION" }],
   openGraph: {
     type: "website",
     locale: "fr_FR",
     url: "https://poleposition-pneus93.fr",
-    siteName: "Pôle Position 93 Pneus 93",
-    title: "Pôle Position 93 Pneus 93 | Spécialiste Pneus & Entretien Auto à Épinay-sur-Seine",
+    siteName: "POLE POSITION Pneus 93",
+    title: "POLE POSITION Pneus 93 | Spécialiste Pneus & Entretien Auto à Épinay-sur-Seine",
     description: "Montage et équilibrage de pneus, freinage, entretien rapide. Ouvert 7j/7 de 9h à 19h. 2 Rue Claude Debussy, 93800 Épinay-sur-Seine.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Pôle Position 93",
+        alt: "POLE POSITION",
       },
     ],
   },

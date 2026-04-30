@@ -18,12 +18,12 @@ export default function Footer() {
           <div className="space-y-8">
             <Link href="/" className="inline-block group">
               <span className="text-3xl font-display font-black tracking-tighter italic">
-                <span className="text-neon-blue group-hover:text-white transition-colors">PÔLE</span>
-                <span className="text-white group-hover:text-neon-blue transition-colors"> POSITION 93</span>
+                <span className="text-neon-blue group-hover:text-white transition-colors">POLE</span>
+                <span className="text-white group-hover:text-neon-blue transition-colors"> POSITION</span>
               </span>
             </Link>
             <p className="text-white/40 text-sm leading-relaxed font-medium">
-              Votre spécialiste pneus en Seine-Saint-Denis. Montage, équilibrage, freinage et entretien automobile. Ouvert 7j/7 de 9h à 19h à Épinay-sur-Seine.
+              Votre spécialiste pneus en Seine-Saint-Denis. Montage, équilibrage, entretien et service à domicile. Partout où vous êtes, nous intervenons. Ouvert 7j/7 de 9h à 19h.
             </p>
             <div className="flex space-x-4">
               {[
@@ -76,13 +76,13 @@ export default function Footer() {
                 <div className="bg-neon-blue/10 p-3 rounded-xl">
                   <Phone className="w-5 h-5 text-neon-blue" />
                 </div>
-                <a href="tel:0100000000" className="font-black italic text-lg tracking-tight hover:text-neon-blue transition-colors">01 00 00 00 00</a>
+                <a href="tel:0953439999" className="font-black italic text-lg tracking-tight hover:text-neon-blue transition-colors">09 53 43 99 99</a>
               </li>
               <li className="flex items-center space-x-4">
                 <div className="bg-neon-blue/10 p-3 rounded-xl">
                   <Mail className="w-5 h-5 text-neon-blue" />
                 </div>
-                <span className="hover:text-neon-blue transition-colors cursor-pointer">contact@pneus-services93.fr</span>
+                <span className="hover:text-neon-blue transition-colors cursor-pointer">pneusservices93@hotmail.com</span>
               </li>
             </ul>
           </div>
@@ -90,7 +90,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-12 border-t border-white/5 flex flex-col lg:flex-row items-center justify-between gap-8 text-white/20 text-[10px] font-black uppercase tracking-[0.2em]">
-          <p>© 2026 PÔLE POSITION 93 — PNEUS SERVICES 93. RCS BOBIGNY 103 861 852. KOUBA SALIM.</p>
+          <p>© 2026 POLE POSITION — PNEUS SERVICES 93. RCS BOBIGNY 103 861 852.</p>
           <div className="flex space-x-8">
             <Link href="/legal" className="hover:text-white transition-colors">Mentions Légales</Link>
             <Link href="/privacy" className="hover:text-white transition-colors">Confidentialité</Link>

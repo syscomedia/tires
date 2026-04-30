@@ -3,13 +3,13 @@
 import Navbar from "@/components/sections/Navbar";
 import Footer from "@/components/sections/Footer";
 import { motion } from "framer-motion";
-import { 
-  Cog, 
-  ShieldCheck, 
-  Wrench, 
-  Activity, 
-  Zap, 
-  Sparkles, 
+import {
+  Cog,
+  ShieldCheck,
+  Wrench,
+  Activity,
+  Zap,
+  Sparkles,
   ArrowLeft,
   Info,
   CircleCheckBig,
@@ -27,7 +27,7 @@ export default function FreinagePage() {
     },
     {
       title: "Réparation",
-      desc: "Un pneu ne se consulte pas uniquement en cas de grosses pannes ! Contactez PÔLE POSITION 93 pour les cas de fuite légère d'air au sein de vos pneus, de chocs ou de déformations légères. Nos techniciens sauront vous aider !",
+      desc: "Un pneu ne se consulte pas uniquement en cas de grosses pannes ! Contactez POLE POSITION pour les cas de fuite légère d'air au sein de vos pneus, de chocs ou de déformations légères. Nos techniciens sauront vous aider !",
       icon: Wrench
     },
     {
@@ -37,7 +37,7 @@ export default function FreinagePage() {
     },
     {
       title: "Conseils",
-      desc: "PÔLE POSITION 93, ce n'est pas qu'une entreprise de vente et de services. C'est avant tout des experts qui vous conseillent sur l'entretien de vos pneus et l'anticipation des risques.",
+      desc: "POLE POSITION, ce n'est pas qu'une entreprise de vente et de services. C'est avant tout des experts qui vous conseillent sur l'entretien de vos pneus et l'anticipation des risques.",
       icon: Info
     }
   ];
@@ -45,7 +45,7 @@ export default function FreinagePage() {
   return (
     <main className="relative flex-1 bg-mesh min-h-screen">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="pt-48 pb-24 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 relative z-10">
@@ -54,7 +54,7 @@ export default function FreinagePage() {
             animate={{ opacity: 1, x: 0 }}
             className="mb-8"
           >
-            <Link 
+            <Link
               href="/services"
               className="inline-flex items-center space-x-2 text-white/60 hover:text-neon-blue transition-colors font-medium uppercase tracking-widest text-sm"
             >
@@ -71,8 +71,8 @@ export default function FreinagePage() {
             <ShieldCheck className="w-5 h-5" />
             <span className="font-black uppercase tracking-widest text-sm text-glow">Sécurité Maximale</span>
           </motion.div>
-          
-          <motion.h1 
+
+          <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-7xl lg:text-8xl font-display font-black mb-8 uppercase italic leading-[0.9] tracking-tighter text-white"
@@ -80,8 +80,8 @@ export default function FreinagePage() {
             LES FREINS, GAGES <br />
             <span className="text-gradient">DE VOTRE SÉCURITÉ</span>
           </motion.h1>
-          
-          <motion.p 
+
+          <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
@@ -101,7 +101,7 @@ export default function FreinagePage() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-32">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -119,15 +119,15 @@ export default function FreinagePage() {
                   Les freins chez Jumbo, c’est une affaire d’expérience. Nous vous proposons les meilleurs prix discount sur les pneus et des prix pas cher sur une sélection de plaquettes et disques de frein.
                 </p>
                 <p>
-                  Notre opération de remplacement de freins est certifiée. À PÔLE POSITION 93, on coupe sur les prix, mais sûrement pas sur la qualité de service !
+                  Notre opération de remplacement de freins est certifiée. À POLE POSITION, on coupe sur les prix, mais sûrement pas sur la qualité de service !
                 </p>
                 <p>
-                  Découvrez quel est le centre Jumbo proche de chez vous (Pôle Position 93) et passez nous voir pour votre remplacement de freins.
+                  Découvrez quel est le centre Jumbo proche de chez vous (POLE POSITION) et passez nous voir pour votre remplacement de freins.
                 </p>
               </div>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -190,15 +190,15 @@ export default function FreinagePage() {
             className="glass p-12 md:p-16 rounded-[3rem] border-white/10"
           >
             <h2 className="text-3xl md:text-5xl font-display font-black text-white mb-8 uppercase italic leading-tight">
-              PÔLE POSITION 93 VOUS GARANTIT <br />
+              POLE POSITION VOUS GARANTIT <br />
               <span className="text-neon-blue text-2xl md:text-3xl">LE MEILLEUR PRIX</span>
             </h2>
             <p className="text-white/60 text-lg mb-12 font-medium leading-relaxed">
               Ne compromettez pas votre sécurité. Venez faire vérifier vos freins gratuitement dans notre centre.
             </p>
             <div className="flex flex-wrap justify-center gap-6">
-              <Link 
-                href="tel:+33100000000"
+              <Link
+                href="tel:0953439999"
                 className="bg-neon-blue text-white px-10 py-5 rounded-2xl font-black uppercase italic tracking-widest hover:bg-white hover:text-neon-blue transition-all shadow-xl shadow-neon-blue/20"
               >
                 Appeler l'Atelier

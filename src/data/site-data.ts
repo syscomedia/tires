@@ -185,7 +185,7 @@ export const products: Product[] = [
     name: "Forfait Vidange + Inspection Pneus",
     category: "freinage-entretien",
     price: 79,
-    brand: "Pôle Position 93",
+    brand: "POLE POSITION",
     description: "Vidange huile moteur + filtre à huile neuf + contrôle des niveaux + inspection complète des pneus offerte.",
     image: "/images/categories/brakes.jpg",
     features: ["Vidange huile moteur", "Filtre à huile neuf", "Contrôle des niveaux", "Inspection pneus offerte"]
@@ -228,5 +228,10 @@ export const services = [
     title: "Crevaison & Urgence",
     description: "Prise en charge immédiate en cas de crevaison. Réparation ou remplacement dans la journée.",
     detail: "Priorité accordée aux urgences"
+  },
+  {
+    title: "Service à Domicile",
+    description: "Nous nous déplaçons partout pour réparer vos pneus ou effectuer l'entretien de votre véhicule à domicile.",
+    detail: "Déplacement rapide — Partout où vous êtes"
   }
 ];

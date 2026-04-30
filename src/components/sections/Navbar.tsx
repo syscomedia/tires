@@ -29,21 +29,44 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav
-      className={cn(
-        "fixed top-0 left-0 right-0 z-50 transition-all duration-500 px-4 md:px-6 py-4 md:py-6",
-        isScrolled ? "py-3 md:py-4" : "bg-transparent"
-      )}
-    >
+    <>
+      {/* Top Promotion Bar */}
+      <div className="fixed top-0 left-0 right-0 z-[60] bg-neon-blue py-1.5 md:py-2 overflow-hidden">
+        <motion.div
+          animate={{ x: [0, -1000] }}
+          transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
+          className="whitespace-nowrap flex items-center space-x-12"
+        >
+          {[1, 2, 3, 4, 5].map((i) => (
+            <div key={i} className="flex items-center space-x-12">
+              <span className="text-white font-black uppercase text-[10px] md:text-xs tracking-[0.3em] italic flex items-center">
+                <span className="w-1.5 h-1.5 bg-white rounded-full mr-3 animate-pulse" />
+                FRANCHISE OFFERTE POUR CHAQUE PARE-BRISE = 2 PNEUS OFFERTS !
+              </span>
+              <span className="text-white/60 font-black uppercase text-[10px] md:text-xs tracking-[0.3em] italic flex items-center">
+                <span className="w-1.5 h-1.5 bg-white/60 rounded-full mr-3" />
+                SERVICE À DOMICILE 7J/7 — DÉPLACEMENT PARTOUT
+              </span>
+            </div>
+          ))}
+        </motion.div>
+      </div>
+
+      <nav
+        className={cn(
+          "fixed top-8 md:top-12 left-0 right-0 z-50 transition-all duration-500 px-2 md:px-6 py-2 md:py-6",
+          isScrolled ? "py-2 md:py-4" : "bg-transparent"
+        )}
+      >
       <div className={cn(
         "max-w-7xl mx-auto flex items-center justify-between transition-all duration-500 px-4 md:px-8 py-3 md:py-4 rounded-[1.5rem] md:rounded-[2rem]",
         isScrolled ? "glass border-white/10" : "bg-transparent"
       )}>
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2 group">
-          <span className="text-lg md:text-3xl font-display font-black tracking-tighter italic whitespace-nowrap">
-            <span className="text-neon-blue group-hover:text-white transition-colors">PÔLE</span>
-            <span className="text-white group-hover:text-neon-blue transition-colors"> POSITION 93</span>
+          <span className="text-sm md:text-3xl font-display font-black tracking-tighter italic whitespace-nowrap">
+            <span className="text-neon-blue group-hover:text-white transition-colors">POLE</span>
+            <span className="text-white group-hover:text-neon-blue transition-colors"> POSITION</span>
           </span>
         </Link>
 
@@ -67,7 +90,7 @@ export default function Navbar() {
         {/* CTA Buttons */}
         <div className="hidden md:flex items-center space-x-4">
           <a
-            href="tel:+33100000000"
+            href="tel:0953439999"
             className="flex items-center space-x-2 text-white bg-neon-blue px-4 py-2 rounded-full hover:bg-neon-blue-hover transition-all"
           >
             <Phone className="w-4 h-4" />
@@ -96,7 +119,7 @@ export default function Navbar() {
               onClick={() => setIsMobileMenuOpen(false)}
               className="fixed inset-0 bg-carbon-black/40 backdrop-blur-2xl z-40 md:hidden"
             />
-            
+
             <motion.div
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -118,14 +141,14 @@ export default function Navbar() {
               ))}
               <div className="pt-6 flex flex-col space-y-4">
                 <a
-                  href="tel:+33100000000"
+                  href="tel:0953439999"
                   className="flex items-center justify-center space-x-3 glass-blue text-white py-4 rounded-2xl font-black italic uppercase tracking-widest text-sm shadow-lg shadow-neon-blue/10 transition-transform active:scale-95"
                 >
                   <Phone className="w-5 h-5 text-neon-blue" />
                   <span>APPELER</span>
                 </a>
                 <a
-                  href="https://wa.me/33123456789"
+                  href="https://wa.me/+330751151984"
                   className="flex items-center justify-center space-x-3 glass-green text-white py-4 rounded-2xl font-black italic uppercase tracking-widest text-sm shadow-lg shadow-green-500/10 transition-transform active:scale-95"
                 >
                   <MessageSquare className="w-5 h-5 text-green-500" />
@@ -136,6 +159,7 @@ export default function Navbar() {
           </>
         )}
       </AnimatePresence>
-    </nav>
+      </nav>
+    </>
   );
 }

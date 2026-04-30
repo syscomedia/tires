@@ -59,7 +59,7 @@ export default function CategoryPage({ params }: PageProps) {
                 className="inline-flex items-center space-x-2 text-neon-blue mb-6"
               >
                 <Sparkles className="w-4 h-4" />
-                <span className="font-black uppercase tracking-widest text-[10px] italic">Pôle Position 93</span>
+                <span className="font-black uppercase tracking-widest text-[10px] italic">POLE POSITION</span>
               </motion.div>
 
               <motion.h1

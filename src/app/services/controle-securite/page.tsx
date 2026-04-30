@@ -3,11 +3,11 @@
 import Navbar from "@/components/sections/Navbar";
 import Footer from "@/components/sections/Footer";
 import { motion } from "framer-motion";
-import { 
-  ShieldCheck, 
-  Activity, 
-  Zap, 
-  Sparkles, 
+import {
+  ShieldCheck,
+  Activity,
+  Zap,
+  Sparkles,
   ArrowLeft,
   Info,
   CircleCheckBig,
@@ -44,7 +44,7 @@ export default function ControlePage() {
   return (
     <main className="relative flex-1 bg-mesh min-h-screen">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="pt-48 pb-24 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 relative z-10">
@@ -53,7 +53,7 @@ export default function ControlePage() {
             animate={{ opacity: 1, x: 0 }}
             className="mb-8"
           >
-            <Link 
+            <Link
               href="/services"
               className="inline-flex items-center space-x-2 text-white/60 hover:text-neon-blue transition-colors font-medium uppercase tracking-widest text-sm"
             >
@@ -70,8 +70,8 @@ export default function ControlePage() {
             <ShieldCheck className="w-5 h-5" />
             <span className="font-black uppercase tracking-widest text-sm text-glow">Prévention & Sécurité</span>
           </motion.div>
-          
-          <motion.h1 
+
+          <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-5xl md:text-7xl lg:text-8xl font-display font-black mb-8 uppercase italic leading-[0.9] tracking-tighter text-white"
@@ -79,8 +79,8 @@ export default function ControlePage() {
             CONTRÔLE <br />
             <span className="text-gradient">SÉCURITÉ COMPLET</span>
           </motion.h1>
-          
-          <motion.p 
+
+          <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
@@ -100,7 +100,7 @@ export default function ControlePage() {
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-32">
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -126,7 +126,7 @@ export default function ControlePage() {
               </div>
             </motion.div>
 
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -196,8 +196,8 @@ export default function ControlePage() {
               Ne prenez aucun risque sur la route. Passez dans notre centre pour un contrôle complet en moins d'une heure.
             </p>
             <div className="flex flex-wrap justify-center gap-6">
-              <Link 
-                href="tel:+33100000000"
+              <Link
+                href="tel:0953439999"
                 className="bg-neon-blue text-white px-10 py-5 rounded-2xl font-black uppercase italic tracking-widest hover:bg-white hover:text-neon-blue transition-all shadow-xl shadow-neon-blue/20"
               >
                 Appeler l'Atelier
