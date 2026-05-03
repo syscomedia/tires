@@ -38,7 +38,7 @@ export default function Hero() {
         className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-amber-gold/5 rounded-full blur-[120px] z-0"
       />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 w-full pt-80 md:pt-24">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 w-full pt-[24rem] md:pt-32">
         <div className="max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -49,13 +49,13 @@ export default function Hero() {
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ delay: 0.2 }}
-              className="inline-flex items-center space-x-2 px-3 py-1.5 md:px-4 md:py-2 bg-neon-blue/20 border border-neon-blue/30 text-neon-blue text-[10px] md:text-sm font-black uppercase tracking-[0.3em] mb-6 md:mb-8 rounded-full italic backdrop-blur-md"
+              className="inline-flex items-center space-x-3 px-4 py-2 bg-white/5 border border-white/10 text-white/70 text-[9px] md:text-xs font-black uppercase tracking-[0.4em] mb-8 md:mb-10 rounded-full italic backdrop-blur-md shadow-2xl"
             >
-              <span className="relative flex h-2 w-2">
+              <div className="relative flex h-2 w-2">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-neon-blue opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-neon-blue"></span>
-              </span>
-              <span>POLE POSITION — Épinay-sur-Seine</span>
+              </div>
+              <span>Épinay-sur-Seine — 93800</span>
             </motion.div>
 
             <h1 className="text-5xl md:text-8xl font-display font-black text-white mb-6 leading-[0.95] tracking-tight italic">

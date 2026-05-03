@@ -67,7 +67,7 @@ export default function ServicesPage() {
             transition={{ delay: 0.2 }}
             className="text-white/40 max-w-3xl mx-auto text-xl leading-relaxed font-medium"
           >
-            Un centre pneus haute performance, ouvert 7j/7 de 9h à 19h, pour garder votre véhicule au sommet de sa forme.
+            Un centre de pneus haute performance, ouvert 7j/7 de 9h à 19h, pour garder votre véhicule au sommet de sa forme.
           </motion.p>
         </div>
       </section>
@@ -116,7 +116,7 @@ export default function ServicesPage() {
           <div className="glass-blue p-12 md:p-20 rounded-[3rem] border-white/10 flex flex-col lg:flex-row items-center justify-between gap-12 shadow-2xl">
             <div className="text-center lg:text-left">
               <h2 className="text-4xl md:text-6xl font-display font-black uppercase italic mb-4 leading-none tracking-tighter text-white">
-                BESOIN D'UN <br /><span className="text-neon-blue">MONTAGE PNEUS ?</span>
+                BESOIN D'UN <br /><span className="text-neon-blue">MONTAGE DE PNEUS ?</span>
               </h2>
               <p className="text-white/60 text-lg font-medium">Venez directement ou appelez-nous — sans rendez-vous, 7j/7 de 9h à 19h.</p>
             </div>

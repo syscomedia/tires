@@ -71,7 +71,7 @@ export const products: Product[] = [
     category: "pneus-ete",
     price: 119,
     brand: "Michelin",
-    description: "Le pneu été référence pour berlines et compactes. Longévité record et freinage court sur mouillé.",
+    description: "Le pneu été de référence pour berlines et compactes. Longévité record et freinage court sur mouillé.",
     image: "/images/categories/summer.jpg",
     features: ["Indice vitesse H (210 km/h)", "Freinage court sur mouillé", "Longévité +25%", "Montage & équilibrage inclus"]
   },
@@ -123,7 +123,7 @@ export const products: Product[] = [
     category: "toutes-saisons",
     price: 99,
     brand: "Goodyear",
-    description: "Pneu toutes saisons polyvalent et économique. Idéal pour conduire toute l'année sans changer.",
+    description: "Pneu toutes saisons polyvalent et économique. Idéal pour conduire toute l'année sans changer de pneus.",
     image: "/images/categories/allseason.jpg",
     features: ["Homologué 3PMSF", "Grip mixte performant", "Économique", "Montage inclus"]
   },
@@ -206,7 +206,7 @@ export const services = [
   },
   {
     title: "Géométrie (Parallélisme)",
-    description: "Réglage de la géométrie de vos roues pour prolonger la durée de vos pneus et améliorer la tenue de route.",
+    description: "Réglage de la géométrie de vos roues pour prolonger la durée de vie de vos pneus et améliorer la tenue de route.",
     detail: "Contrôle 4 roues, rapport complet fourni"
   },
   {

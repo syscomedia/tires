@@ -40,12 +40,12 @@ export default function Navbar() {
         >
           {[1, 2, 3, 4, 5].map((i) => (
             <div key={i} className="flex items-center space-x-12">
-              <span className="text-white font-black uppercase text-[10px] md:text-xs tracking-[0.3em] italic flex items-center">
-                <span className="w-1.5 h-1.5 bg-white rounded-full mr-3 animate-pulse" />
+              <span className="text-black font-black uppercase text-[11px] md:text-xs tracking-[0.2em] italic flex items-center">
+                <span className="w-1.5 h-1.5 bg-black rounded-full mr-3 animate-pulse" />
                 FRANCHISE OFFERTE POUR CHAQUE PARE-BRISE = 2 PNEUS OFFERTS !
               </span>
-              <span className="text-white/60 font-black uppercase text-[10px] md:text-xs tracking-[0.3em] italic flex items-center">
-                <span className="w-1.5 h-1.5 bg-white/60 rounded-full mr-3" />
+              <span className="text-black/70 font-black uppercase text-[11px] md:text-xs tracking-[0.2em] italic flex items-center">
+                <span className="w-1.5 h-1.5 bg-black/40 rounded-full mr-3" />
                 SERVICE À DOMICILE 7J/7 — DÉPLACEMENT PARTOUT
               </span>
             </div>
@@ -56,7 +56,7 @@ export default function Navbar() {
       <nav
         className={cn(
           "fixed left-0 right-0 z-50 transition-all duration-500 px-2 md:px-6",
-          isScrolled ? "top-6 md:top-8 py-2 md:py-4 bg-carbon-black/80 backdrop-blur-md" : "top-8 md:top-12 py-2 md:py-6 bg-transparent"
+          isScrolled ? "top-6 md:top-8 py-2 md:py-4 bg-carbon-black/80 backdrop-blur-md" : "top-10 md:top-14 py-2 md:py-6 bg-transparent"
         )}
       >
       <div className={cn(
@@ -65,9 +65,9 @@ export default function Navbar() {
       )}>
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2 group">
-          <span className="text-sm md:text-3xl font-display font-black tracking-tighter italic whitespace-nowrap">
+          <span className="text-3xl md:text-6xl font-display font-black tracking-tighter italic whitespace-nowrap leading-none">
             <span className="text-neon-blue group-hover:text-white transition-colors">POLE</span>
-            <span className="text-white group-hover:text-neon-blue transition-colors"> POSITION</span>
+            <span className="text-white group-hover:text-neon-blue transition-colors">POSITION</span>
           </span>
         </Link>
 

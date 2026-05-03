@@ -23,7 +23,7 @@ export default function Footer() {
               </span>
             </Link>
             <p className="text-white/40 text-sm leading-relaxed font-medium">
-              Votre spécialiste pneus en Seine-Saint-Denis. Montage, équilibrage, entretien et service à domicile. Partout où vous êtes, nous intervenons. Ouvert 7j/7 de 9h à 19h.
+              Votre spécialiste du pneu en Seine-Saint-Denis. Montage, équilibrage, entretien et service à domicile. Partout où vous êtes, nous intervenons. Ouvert 7j/7 de 9h à 19h.
             </p>
             <div className="flex space-x-4">
               {[

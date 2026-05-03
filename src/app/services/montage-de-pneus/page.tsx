@@ -21,7 +21,7 @@ export default function MontageDePneusPage() {
   const sections = [
     {
       title: "Parallélisme",
-      desc: "Aspect peu connu du grand public, le parallélisme de vos roues est pourtant un aspect fondamental de votre bonne tenue de route. Sa vérification doit être régulièrement faite par les conducteurs de tous types de véhicules.",
+      desc: "Souvent méconnu du grand public, le parallélisme de vos roues est pourtant un élément fondamental de votre tenue de route. Sa vérification doit être régulièrement effectuée par les conducteurs de tous types de véhicules.",
       icon: Activity
     },
     {
@@ -82,7 +82,7 @@ export default function MontageDePneusPage() {
             className="text-5xl md:text-7xl lg:text-8xl font-display font-black mb-8 uppercase italic leading-[0.9] tracking-tighter text-white"
           >
             VOTRE SERVICE DE <br />
-            <span className="text-gradient">MONTAGE DE PNEU</span>
+            <span className="text-gradient">MONTAGE DE PNEUS</span>
           </motion.h1>
 
           <motion.p
@@ -115,18 +115,18 @@ export default function MontageDePneusPage() {
                 <ShieldCheck className="w-32 h-32" />
               </div>
               <h2 className="text-3xl font-display font-black text-white mb-8 uppercase italic leading-none">
-                UN MONTAGE PNEU <br />
+                UN MONTAGE DE PNEUS <br />
                 <span className="text-neon-blue text-2xl">EXPERT ET EFFICACE</span>
               </h2>
               <div className="space-y-6 text-white/50 leading-relaxed font-medium">
                 <p>
-                  Avant toute chose, les conducteurs de tous types de véhicule doivent d’abord vérifier que les pneus à monter sont bien conformes aux recommandations du constructeur, tant au niveau de la taille des pneus que des différents indices comme la capacité de charge ou la vitesse.
+                  Avant toute chose, les conducteurs de tous types de véhicules doivent d’abord vérifier que les pneus à monter sont bien conformes aux recommandations du constructeur, tant au niveau de la taille des pneus que des différents indices comme la capacité de charge ou la vitesse.
                 </p>
                 <p>
-                  Certains professionnels comme POLE POSITION effectuent par ailleurs des opérations de montage de pneu pas cher, ou même gratuit notamment lors d’un achat de pneus dans leur magasin du pneu.
+                  Certains professionnels comme POLE POSITION effectuent par ailleurs des opérations de montage de pneus pas cher, ou même gratuit notamment lors d’un achat de pneus dans leur magasin de pneus.
                 </p>
                 <p>
-                  Généralement, lorsque vous effectuez cette opération dans un centre montage pneu Jumbo Pneu, les techniciens en profitent pour déceler les différentes anomalies des trains roulants de votre voiture en se basant sur l’état des pneus, sur les flancs intérieurs et extérieurs.
+                  Généralement, lorsque vous effectuez cette opération dans un centre de montage de pneus, les techniciens en profitent pour déceler les différentes anomalies des trains roulants de votre voiture en se basant sur l’état des pneus, sur les flancs intérieurs et extérieurs.
                 </p>
               </div>
             </motion.div>
@@ -152,7 +152,7 @@ export default function MontageDePneusPage() {
                   Il y a en effet une procédure stricte à suivre, notamment le dégonflage et le démontage du pneu à remplacer, l’équilibrage de la roue et le suivi du sens de montage, le gonflage, le remplacement de la valve et les vérifications par rapport aux éventuelles fuites…
                 </p>
                 <p>
-                  Le prix du montage pneu varie selon les centres d’entretien pneumatiques. Dans tous les cas cependant, il faut prioriser la qualité de service comme c’est le cas chez POLE POSITION.
+                  Le prix du montage de pneus varie selon les centres d’entretien pneumatiques. Dans tous les cas cependant, il faut prioriser la qualité de service comme c’est le cas chez POLE POSITION.
                 </p>
               </div>
             </motion.div>
@@ -198,7 +198,7 @@ export default function MontageDePneusPage() {
               <span className="text-neon-blue text-2xl md:text-3xl">FAIT LA SÉCURITÉ DE VOTRE VÉHICULE</span>
             </h2>
             <p className="text-white/60 text-lg mb-12 font-medium leading-relaxed">
-              POLE POSITION vous assure un montage pneu de qualité et certifié pour votre sécurité.
+              POLE POSITION vous assure un montage de pneus de qualité et certifié pour votre sécurité.
               Ne vous laissez plus surprendre et suivez nos bons plans !
             </p>
             <div className="flex flex-wrap justify-center gap-6">

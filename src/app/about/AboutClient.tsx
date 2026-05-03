@@ -38,7 +38,7 @@ export default function AboutPage() {
             transition={{ delay: 0.2 }}
             className="text-white/40 max-w-3xl mx-auto text-xl leading-relaxed font-medium"
           >
-            Plus qu'un simple centre pneus, nous sommes une équipe de passionnés dédiée à votre sécurité et à la performance de votre véhicule, 7 jours sur 7.
+            Plus qu'un simple centre de pneus, nous sommes une équipe de passionnés dédiée à votre sécurité et à la performance de votre véhicule, 7 jours sur 7.
           </motion.p>
         </div>
       </section>
@@ -71,10 +71,10 @@ export default function AboutPage() {
             <span className="text-neon-blue font-black uppercase tracking-[0.3em] text-xs mb-6 block italic">Notre Histoire</span>
             <h2 className="text-5xl font-display font-black text-white mb-8 uppercase italic leading-none tracking-tighter">EXPERTISE & <span className="text-gradient">PASSION.</span></h2>
             <p className="text-white/50 mb-8 text-lg leading-relaxed font-medium">
-              Basée au 2 Rue Claude Debussy, 93800 Épinay-sur-Seine, <strong>POLE POSITION</strong> est née de la volonté de proposer un service pneu premium, accessible et disponible 7j/7 pour tous les automobilistes de Seine-Saint-Denis.
+              Basée au 2 Rue Claude Debussy, 93800 Épinay-sur-Seine, <strong>POLE POSITION</strong> est née de la volonté de proposer un service de pneumatiques premium, accessible et disponible 7j/7 pour tous les automobilistes de Seine-Saint-Denis.
             </p>
             <p className="text-white/50 mb-12 text-lg leading-relaxed font-medium">
-              Spécialisés dans le montage de pneus, le freinage et l'entretien automobile, nous mettons un point d'honneur à la qualité de nos interventions. Notre équipe technique certifiée assure un suivi rapide et efficace de chaque véhicule qui entre dans notre centre.
+              Spécialisés dans le montage de pneus, le freinage et l'entretien automobile, nous mettons un point d'honneur à garantir la qualité de nos interventions. Notre équipe technique certifiée assure un suivi rapide et efficace de chaque véhicule qui entre dans notre centre.
             </p>
             <div className="grid grid-cols-2 gap-12 border-t border-white/5 pt-12">
               <div>
