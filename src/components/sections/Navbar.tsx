@@ -11,6 +11,7 @@ const navigation = [
   { name: "Accueil", href: "/" },
   { name: "Nos Pneus", href: "/categories" },
   { name: "Services", href: "/services" },
+  { name: "Avis", href: "/avis" },
   { name: "À Propos", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
@@ -54,8 +55,8 @@ export default function Navbar() {
 
       <nav
         className={cn(
-          "fixed top-8 md:top-12 left-0 right-0 z-50 transition-all duration-500 px-2 md:px-6 py-2 md:py-6",
-          isScrolled ? "py-2 md:py-4" : "bg-transparent"
+          "fixed left-0 right-0 z-50 transition-all duration-500 px-2 md:px-6",
+          isScrolled ? "top-6 md:top-8 py-2 md:py-4 bg-carbon-black/80 backdrop-blur-md" : "top-8 md:top-12 py-2 md:py-6 bg-transparent"
         )}
       >
       <div className={cn(

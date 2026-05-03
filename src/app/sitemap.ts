@@ -1,47 +1,67 @@
-import { MetadataRoute } from 'next';
-import { categories, products } from '@/data/site-data';
+import { MetadataRoute } from "next";
+import { categories, products } from "@/data/site-data";
+
+const SITE_URL = "https://poleposition-pneus93.fr";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://poleposition-pneus93.fr';
+  const now = new Date();
 
   const categoryUrls = categories.map((c) => ({
-    url: `${baseUrl}/categories/${c.slug}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: 0.8,
+    url: `${SITE_URL}/categories/${c.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.9,
   }));
 
   const productUrls = products.map((p) => ({
-    url: `${baseUrl}/products/${p.id}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly' as const,
-    priority: 0.7,
+    url: `${SITE_URL}/products/${p.id}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.8,
   }));
 
   return [
     {
-      url: baseUrl,
-      lastModified: new Date(),
-      changeFrequency: 'daily',
-      priority: 1,
+      url: SITE_URL,
+      lastModified: now,
+      changeFrequency: "daily",
+      priority: 1.0,
     },
     {
-      url: `${baseUrl}/about`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
+      url: `${SITE_URL}/categories`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.95,
     },
     {
-      url: `${baseUrl}/contact`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
+      url: `${SITE_URL}/services`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
     },
     {
-      url: `${baseUrl}/services`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.5,
+      url: `${SITE_URL}/avis`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
+      url: `${SITE_URL}/blog`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.8,
+    },
+    {
+      url: `${SITE_URL}/contact`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: `${SITE_URL}/about`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.6,
     },
     ...categoryUrls,
     ...productUrls,

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowRight, CheckCircle2, Play, Phone, Wrench, MapPin } from "lucide-react";
+import { ArrowRight, CheckCircle2, Play, Phone, Wrench, MapPin, Star } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export default function Hero() {
@@ -167,6 +167,19 @@ export default function Hero() {
                     <Play className="w-4 h-4 fill-white" />
                   </div>
                   <span>NOS SERVICES</span>
+                </motion.button>
+              </Link>
+
+              <Link href="/avis">
+                <motion.button
+                  whileHover={{ scale: 1.05, backgroundColor: "rgba(255,255,255,0.1)" }}
+                  whileTap={{ scale: 0.95 }}
+                  className="glass text-white px-10 py-5 rounded-full font-black text-lg flex items-center justify-center space-x-3 transition-all w-full sm:w-auto"
+                >
+                  <div className="bg-white/10 p-1.5 rounded-full">
+                    <Star className="w-4 h-4 text-neon-blue fill-neon-blue" />
+                  </div>
+                  <span>AVIS</span>
                 </motion.button>
               </Link>
             </div>

@@ -1,181 +1,122 @@
-"use client";
-
-import { use } from "react";
-import { categories, products } from "@/data/site-data";
+import type { Metadata } from "next";
+import { categories } from "@/data/site-data";
 import { notFound } from "next/navigation";
-import Navbar from "@/components/sections/Navbar";
-import Footer from "@/components/sections/Footer";
-import Link from "next/link";
-import Image from "next/image";
-import { ArrowRight, Info, Zap, Shield, Sparkles } from "lucide-react";
-import { motion } from "framer-motion";
+import CategoryClient from "./CategoryClient";
+
+const SITE_URL = "https://poleposition-pneus93.fr";
 
 interface PageProps {
-  params: Promise<{
-    slug: string;
-  }>;
+  params: Promise<{ slug: string }>;
 }
 
-export default function CategoryPage({ params }: PageProps) {
-  const { slug } = use(params);
+const categoryMeta: Record<string, { title: string; description: string; keywords: string[] }> = {
+  "pneus-ete": {
+    title: "Pneus Été Épinay-sur-Seine 93 | Michelin, Continental, Bridgestone — Montage Express",
+    description:
+      "Achetez et faites monter vos pneus été à Épinay-sur-Seine (93800). Large choix : Michelin Primacy, Continental EcoContact, Bridgestone Turanza. Montage & équilibrage inclus. 7j/7.",
+    keywords: [
+      "pneus été Épinay-sur-Seine",
+      "pneus été 93",
+      "Michelin Primacy 4 Épinay",
+      "Continental EcoContact 93",
+      "montage pneus été Seine-Saint-Denis",
+      "pneus été pas cher 93800",
+    ],
+  },
+  "pneus-hiver": {
+    title: "Pneus Hiver Épinay-sur-Seine 93 | 3PMSF — Michelin Alpin, Bridgestone Blizzak",
+    description:
+      "Pneus hiver homologués 3PMSF à Épinay-sur-Seine. Michelin Alpin, Bridgestone Blizzak, Nokian. Grip neige & verglas garanti. Montage express 7j/7.",
+    keywords: [
+      "pneus hiver Épinay-sur-Seine",
+      "pneus hiver 93",
+      "pneus neige Seine-Saint-Denis",
+      "Michelin Alpin Épinay",
+      "Bridgestone Blizzak 93",
+      "pneus 3PMSF 93800",
+    ],
+  },
+  "toutes-saisons": {
+    title: "Pneus Toutes Saisons Épinay-sur-Seine 93 | Michelin CrossClimate, Goodyear Vector",
+    description:
+      "Pneus toutes saisons à Épinay-sur-Seine : conduisez toute l'année sans changer de pneus. Michelin CrossClimate 2, Goodyear Vector 4Seasons. Homologués 3PMSF. Montage inclus.",
+    keywords: [
+      "pneus toutes saisons Épinay-sur-Seine",
+      "pneus 4 saisons 93",
+      "Michelin CrossClimate Épinay",
+      "pneus toutes saisons pas cher 93",
+      "pneus toutes saisons Seine-Saint-Denis",
+    ],
+  },
+  "pneus-4x4-suv": {
+    title: "Pneus 4x4 & SUV Épinay-sur-Seine 93 | Michelin, BFGoodrich, Pirelli",
+    description:
+      "Pneus 4x4 et SUV à Épinay-sur-Seine : Michelin Pilot Sport, BFGoodrich All-Terrain. Routier, tout-terrain, mixte. Montage & équilibrage inclus. 7j/7.",
+    keywords: [
+      "pneus 4x4 Épinay-sur-Seine",
+      "pneus SUV 93",
+      "pneus crossover Seine-Saint-Denis",
+      "BFGoodrich 4x4 Épinay",
+      "Michelin SUV 93800",
+      "pneus 4x4 pas cher 93",
+    ],
+  },
+  "pneus-utilitaires": {
+    title: "Pneus Utilitaires Épinay-sur-Seine 93 | Fourgons, Camionnettes — Michelin Agilis",
+    description:
+      "Pneus utilitaires pour fourgons et camionnettes à Épinay-sur-Seine. Michelin Agilis, Continental VanContact. Charge renforcée. Montage professionnel 7j/7.",
+    keywords: [
+      "pneus utilitaires Épinay-sur-Seine",
+      "pneus fourgon 93",
+      "pneus camionnette Seine-Saint-Denis",
+      "Michelin Agilis Épinay",
+      "pneus van 93800",
+      "pneus utilitaires pas cher 93",
+    ],
+  },
+  "freinage-entretien": {
+    title: "Freinage & Entretien Auto Épinay-sur-Seine 93 | Disques, Plaquettes, Vidange",
+    description:
+      "Remplacement disques et plaquettes de frein, vidange huile moteur, entretien complet à Épinay-sur-Seine. Sans rendez-vous. Brembo, TRW. 7j/7 de 9h à 19h.",
+    keywords: [
+      "freinage auto Épinay-sur-Seine",
+      "plaquettes disques frein 93",
+      "vidange voiture Épinay",
+      "entretien auto 93800 sans rendez-vous",
+      "Brembo Épinay-sur-Seine",
+      "révision auto Seine-Saint-Denis",
+    ],
+  },
+};
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
   const category = categories.find((c) => c.slug === slug);
+  if (!category) return {};
 
-  if (!category) {
-    notFound();
-  }
+  const meta = categoryMeta[slug] ?? {
+    title: `${category.name} — Épinay-sur-Seine 93 | Pole Position Pneus`,
+    description: `${category.description} Montage express inclus. 7j/7 à Épinay-sur-Seine (93).`,
+    keywords: ["pneus Épinay-sur-Seine", category.slug, "93"],
+  };
 
-  const categoryProducts = products.filter((p) => p.category === category.slug);
+  return {
+    title: meta.title,
+    description: meta.description,
+    keywords: meta.keywords,
+    alternates: { canonical: `${SITE_URL}/categories/${slug}` },
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      url: `${SITE_URL}/categories/${slug}`,
+      images: [{ url: `${SITE_URL}${category.image}`, width: 1200, height: 630, alt: category.name }],
+    },
+  };
+}
 
-  return (
-    <main className="relative flex-1 bg-mesh min-h-screen">
-      <Navbar />
-
-      {/* Dynamic Hero Section */}
-      <section className="pt-52 pb-24 relative overflow-hidden">
-        {/* Background Decoration */}
-        <div className="absolute top-0 right-0 opacity-[0.03] select-none pointer-events-none -mr-20">
-          <span className="font-display font-black decor-text italic text-white uppercase">{category.slug.split('-')[0]}</span>
-        </div>
-        <div className="absolute top-0 right-0 w-1/2 h-full bg-neon-blue/5 blur-[120px] rounded-full -translate-y-1/2 translate-x-1/4 opacity-30" />
-
-        <div className="max-w-7xl mx-auto px-4 relative z-10">
-          <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-12">
-            <div className="max-w-3xl">
-              <motion.nav
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                className="flex items-center space-x-3 text-[10px] font-black uppercase tracking-[0.4em] text-white/40 mb-8"
-              >
-                <Link href="/" className="hover:text-neon-blue transition-colors">Accueil</Link>
-                <span className="w-1 h-1 bg-white/20 rounded-full" />
-                <Link href="/categories" className="hover:text-neon-blue transition-colors">Nos Pneus</Link>
-                <span className="w-1 h-1 bg-white/20 rounded-full" />
-                <span className="text-neon-blue italic">{category.name}</span>
-              </motion.nav>
-
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="inline-flex items-center space-x-2 text-neon-blue mb-6"
-              >
-                <Sparkles className="w-4 h-4" />
-                <span className="font-black uppercase tracking-widest text-[10px] italic">POLE POSITION</span>
-              </motion.div>
-
-              <motion.h1
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="text-6xl md:text-9xl font-display font-black uppercase italic leading-[0.85] tracking-tighter text-white"
-              >
-                {category.name.split(' ').map((word, i) => (
-                  <span key={i} className={i > 0 ? "text-gradient block animate-glow" : "block"}>{word}</span>
-                ))}
-              </motion.h1>
-
-              <motion.p
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.3 }}
-                className="text-white/40 mt-10 max-w-2xl text-xl md:text-2xl font-medium leading-relaxed"
-              >
-                {category.description}
-              </motion.p>
-            </div>
-
-            <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.4 }}
-              className="glass-blue p-8 rounded-[2.5rem] flex flex-col space-y-6 border-white/10 relative overflow-hidden group shadow-2xl"
-            >
-              <div className="absolute top-0 right-0 opacity-10 -mr-4 -mt-4">
-                <Zap className="w-24 h-24 text-white rotate-12 group-hover:scale-110 transition-transform duration-700" />
-              </div>
-
-              <div className="flex items-center space-x-6">
-                <div className="bg-neon-blue p-5 rounded-2xl shadow-xl shadow-neon-blue/30 relative z-10">
-                  <Shield className="w-7 h-7 text-white" />
-                </div>
-                <div className="relative z-10">
-                  <p className="text-[10px] font-black text-white/40 uppercase tracking-widest mb-1">Garantie Premium</p>
-                  <p className="text-xl font-display font-black italic text-white leading-tight">MONTAGE <br /><span className="text-white/60">GARANTI 93</span></p>
-                </div>
-              </div>
-
-              <div className="pt-4 border-t border-white/10 relative z-10">
-                <p className="text-white/40 text-xs font-bold italic leading-relaxed">Montage express disponible sans rendez-vous, 7j/7 de 9h à 19h.</p>
-              </div>
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
-      {/* Products Grid */}
-      <section className="py-24 relative z-10">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
-            {categoryProducts.map((product, index) => (
-              <motion.div
-                key={product.id}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="group flex flex-col h-full glass border-white/5 rounded-[3rem] overflow-hidden hover:border-neon-blue/30 transition-all duration-700 hover:shadow-2xl hover:shadow-neon-blue/5"
-              >
-                <div className="relative aspect-[4/5] overflow-hidden">
-                  <img
-                    src={product.image}
-                    alt={product.name}
-                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-110 transition-all duration-1000 grayscale group-hover:grayscale-0 opacity-80 group-hover:opacity-100"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-carbon-black via-transparent to-transparent opacity-60" />
-
-                  {/* Price Tag */}
-                  {/* <div className="absolute top-6 right-6">
-                     <div className="glass-blue px-6 py-3 rounded-2xl backdrop-blur-xl border-white/10 shadow-2xl">
-                        <span className="text-white font-display font-black italic text-xl tracking-tighter">{product.price.toLocaleString()} €</span>
-                     </div>
-                  </div> */}
-                </div>
-
-                <div className="p-8 flex flex-col flex-1 justify-between bg-white/[0.02]">
-                  <div>
-                    <div className="flex items-center space-x-2 text-neon-blue mb-3">
-                      <Zap className="w-3 h-3" />
-                      <span className="text-[10px] font-black uppercase tracking-[0.3em] italic">En Stock — Montage Inclus</span>
-                    </div>
-                    <h3 className="text-xl font-display font-black text-white uppercase italic leading-tight mb-3 group-hover:text-neon-blue transition-colors duration-500">
-                      {product.name}
-                    </h3>
-                    <p className="text-white/40 text-sm font-medium mb-5 line-clamp-2">
-                      {product.description}
-                    </p>
-                    <ul className="space-y-1 mb-6">
-                      {product.features.slice(0, 3).map((f) => (
-                        <li key={f} className="flex items-center space-x-2 text-white/50 text-xs">
-                          <span className="w-1 h-1 bg-neon-blue rounded-full shrink-0" />
-                          <span>{f}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div className="flex items-center justify-between gap-4">
-                    {/* <span className="text-2xl font-display font-black italic text-white">{product.price} €<span className="text-white/30 text-sm font-medium not-italic">/unité</span></span> */}
-                    <Link href={`/products/${product.id}`} className="inline-flex items-center space-x-2 glass px-5 py-3 rounded-2xl text-white font-black italic uppercase tracking-widest text-xs hover:bg-neon-blue hover:border-neon-blue transition-all duration-500 group/btn border border-white/10">
-                      <span>Détails</span>
-                      <ArrowRight className="w-3 h-3 group-hover/btn:translate-x-1 transition-transform" />
-                    </Link>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <Footer />
-    </main>
-  );
+export default async function CategoryPage({ params }: PageProps) {
+  const { slug } = await params;
+  const category = categories.find((c) => c.slug === slug);
+  if (!category) notFound();
+  return <CategoryClient params={params} />;
 }
