@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { articles } from "../BlogClient";
+import { articles } from "../data";
 import ArticleClient from "./ArticleClient";
 
 const SITE_URL = "https://poleposition-pneus93.fr";

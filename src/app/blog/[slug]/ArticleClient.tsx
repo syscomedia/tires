@@ -5,7 +5,7 @@ import Footer from "@/components/sections/Footer";
 import { motion } from "framer-motion";
 import { Clock, ArrowLeft, ArrowRight, Phone } from "lucide-react";
 import Link from "next/link";
-import { articles } from "../BlogClient";
+import { articles } from "../data";
 
 interface ArticleClientProps {
   slug: string;
