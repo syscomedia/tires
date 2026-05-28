@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import CategoriesClient from "./CategoriesClient";
 
-const SITE_URL = "https://poleposition-pneus93.fr";
+const SITE_URL = "https://polepositionpneus.com";
 
 export const metadata: Metadata = {
   title: "Pneus Été, Hiver, 4x4, Utilitaires — Épinay-sur-Seine 93 | Pole Position",

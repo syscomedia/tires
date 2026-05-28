@@ -3,7 +3,7 @@ import { categories } from "@/data/site-data";
 import { notFound } from "next/navigation";
 import CategoryClient from "./CategoryClient";
 
-const SITE_URL = "https://poleposition-pneus93.fr";
+const SITE_URL = "https://polepositionpneus.com";
 
 interface PageProps {
   params: Promise<{ slug: string }>;

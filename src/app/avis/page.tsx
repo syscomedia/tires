@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import AvisClient from "./AvisClient";
 
-const SITE_URL = "https://poleposition-pneus93.fr";
+const SITE_URL = "https://polepositionpneus.com";
 
 const faqSchema = {
   "@context": "https://schema.org",

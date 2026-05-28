@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import ContactClient from "./ContactClient";
 
-const SITE_URL = "https://poleposition-pneus93.fr";
+const SITE_URL = "https://polepositionpneus.com";
 
 export const metadata: Metadata = {
   title: "Contact & Horaires | Pole Position Pneus Épinay-sur-Seine — 7j/7",

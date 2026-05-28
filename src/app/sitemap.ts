@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { categories, products } from "@/data/site-data";
 
-const SITE_URL = "https://poleposition-pneus93.fr";
+const SITE_URL = "https://polepositionpneus.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

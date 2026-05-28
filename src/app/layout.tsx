@@ -6,7 +6,7 @@ import Script from "next/script";
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 const outfit = Outfit({ variable: "--font-outfit", subsets: ["latin"] });
 
-const SITE_URL = "https://poleposition-pneus93.fr";
+const SITE_URL = "https://polepositionpneus.com";
 const PHONE = "+33 9 53 43 99 99";
 const ADDRESS = "2 Rue Claude Debussy, 93800 Épinay-sur-Seine";
 
