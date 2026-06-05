@@ -21,7 +21,7 @@ const jsonLd = {
       alternateName: ["Pole Position Pneus", "Pneus Services 93", "Pneus Épinay-sur-Seine"],
       url: SITE_URL,
       telephone: PHONE,
-      email: "contact@pneus-services93.fr",
+      email: "pneusservices93@hotmail.com",
       description:
         "Spécialiste pneus à Épinay-sur-Seine (93) : montage, équilibrage, freinage, entretien rapide. Pneus neufs & occasion toutes marques. Ouvert 7j/7 de 9h à 19h.",
       address: {

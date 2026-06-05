@@ -95,7 +95,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="text-[8px] md:text-[10px] font-black uppercase tracking-[0.3em] text-white/40 mb-1">Support Email</p>
-                    <p className="text-white font-bold text-base md:text-lg">contact@pneus-services93.fr</p>
+                    <p className="text-white font-bold text-base md:text-lg">pneusservices93@hotmail.com</p>
                   </div>
                 </div>
               </div>
