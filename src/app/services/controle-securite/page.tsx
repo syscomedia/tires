@@ -197,7 +197,7 @@ export default function ControlePage() {
             </p>
             <div className="flex flex-wrap justify-center gap-6">
               <Link
-                href="tel:0953439999"
+                href="tel:0781806331"
                 className="bg-neon-blue text-white px-10 py-5 rounded-2xl font-black uppercase italic tracking-widest hover:bg-white hover:text-neon-blue transition-all shadow-xl shadow-neon-blue/20"
               >
                 Appeler l'Atelier

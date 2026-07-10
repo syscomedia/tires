@@ -76,7 +76,7 @@ export default function Footer() {
                 <div className="bg-neon-blue/10 p-3 rounded-xl">
                   <Phone className="w-5 h-5 text-neon-blue" />
                 </div>
-                <a href="tel:0953439999" className="font-black italic text-lg tracking-tight hover:text-neon-blue transition-colors">09 53 43 99 99</a>
+                <a href="tel:0781806331" className="font-black italic text-lg tracking-tight hover:text-neon-blue transition-colors">07 81 80 63 31</a>
               </li>
               <li className="flex items-center space-x-4">
                 <div className="bg-neon-blue/10 p-3 rounded-xl">

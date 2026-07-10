@@ -101,7 +101,7 @@ export default function FloatingContact() {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full pt-4">
                   <a
-                    href="tel:0953439999"
+                    href="tel:0781806331"
                     className="flex items-center justify-center space-x-4 glass-blue text-white py-6 rounded-3xl font-black italic uppercase tracking-widest text-sm shadow-xl shadow-neon-blue/20 hover:scale-[1.05] transition-all group/btn"
                   >
                     <Phone className="w-6 h-6 text-neon-blue group-hover/btn:rotate-12 transition-transform" />

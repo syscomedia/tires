@@ -36,7 +36,7 @@ export default function Home() {
           <div className="relative z-20 mt-10 md:mt-8 max-w-7xl mx-auto px-4">
             <div className="glass p-6 md:p-8 rounded-[2rem] md:rounded-[2.5rem] grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 shadow-2xl border-white/5">
               {[
-                { icon: Phone, label: "Service Client", value: "09 53 43 99 99", size: "text-lg", href: "tel:0953439999" },
+                { icon: Phone, label: "Service Client", value: "07 81 80 63 31", size: "text-lg", href: "tel:0781806331" },
                 { icon: MapPin, label: "Localisation", value: "2 Rue Claude Debussy, 93800 Épinay-sur-Seine", size: "text-[10px]", href: "https://goo.gl/maps/xyz" },
                 { icon: Clock, label: "Ouverture", value: "7j/7 : 09h - 19h", size: "text-lg" },
               ].map((item, i) => (

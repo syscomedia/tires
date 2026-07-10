@@ -114,14 +114,14 @@ export default function Hero() {
                 );
               })}
               <motion.a
-                href="tel:0953439999"
+                href="tel:0781806331"
                 initial={{ opacity: 0, scale: 0.9 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 2 }}
                 className="inline-flex items-center space-x-2 bg-neon-blue/10 text-neon-blue px-4 py-1 rounded-full border border-neon-blue/20 hover:bg-neon-blue hover:text-white transition-all ml-2"
               >
                 <Phone className="w-4 h-4" />
-                <span className="font-black italic">09 53 43 99 99</span>
+                <span className="font-black italic">07 81 80 63 31</span>
               </motion.a>
             </div>
 
