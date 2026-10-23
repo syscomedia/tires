@@ -29,12 +29,12 @@ export default function ArticleClient({ slug, content, article }: ArticleClientP
       <Navbar />
 
       {/* Hero */}
-      <section className="pt-48 pb-16 relative overflow-hidden">
+      <section className="pt-36 md:pt-48 pb-16 relative overflow-x-clip">
         <div
-          className="absolute inset-0 bg-cover bg-center opacity-20"
+          className="absolute inset-0 bg-cover bg-center opacity-20 [mask-image:linear-gradient(to_bottom,black_50%,transparent)]"
           style={{ backgroundImage: `url(${article.image})` }}
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-carbon-black via-carbon-black/60 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-transparent via-carbon-black/50 to-transparent" />
         <div className="max-w-4xl mx-auto px-4 relative z-10">
           <motion.nav initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="flex items-center space-x-2 text-[10px] font-bold uppercase tracking-widest text-white/30 mb-8">
             <Link href="/" className="hover:text-racing-red transition-colors">Accueil</Link>
@@ -65,7 +65,7 @@ export default function ArticleClient({ slug, content, article }: ArticleClientP
       {/* Article body */}
       <section className="py-16 relative z-10">
         <div className="max-w-4xl mx-auto px-4">
-          <div className="glass p-8 md:p-14 rounded-[3rem] border-white/5 mb-16">
+          <div className="glass p-8 md:p-14 rounded-[3rem] border-white/5 mb-10 md:mb-16">
             <p className="text-white/60 text-xl leading-relaxed font-medium mb-10 italic border-l-4 border-racing-red pl-6">
               {content.description}
             </p>
@@ -90,7 +90,7 @@ export default function ArticleClient({ slug, content, article }: ArticleClientP
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="glass-red p-10 md:p-14 rounded-[3rem] border-white/10 text-center mb-16"
+            className="glass-red p-6 md:p-14 rounded-[3rem] border-white/10 text-center mb-10 md:mb-16"
           >
             <h2 className="text-3xl md:text-4xl font-display font-black text-white uppercase italic mb-4 leading-tight">
               BESOIN D'UN <span className="text-gradient">CONSEIL EXPERT ?</span>

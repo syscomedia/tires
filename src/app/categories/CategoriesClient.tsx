@@ -14,7 +14,7 @@ export default function CategoriesPage() {
       <Navbar />
       
       {/* Hero Section */}
-      <section className="pt-52 pb-24 relative overflow-hidden">
+      <section className="pt-52 pb-14 md:pb-24 relative overflow-x-clip">
         {/* Background Decoration */}
         <div className="absolute top-0 right-0 opacity-[0.03] select-none pointer-events-none -mr-20">
           <span className="font-display font-black decor-text italic text-white uppercase">PNEUS</span>
@@ -50,7 +50,7 @@ export default function CategoriesPage() {
       </section>
 
       {/* Categories Grid */}
-      <section className="pb-32 relative z-10">
+      <section className="pb-16 md:pb-32 relative z-10">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {categories.map((category, i) => (
@@ -76,16 +76,16 @@ export default function CategoriesPage() {
                     </div>
 
                     {/* Content Overlay */}
-                    <div className="absolute inset-0 p-10 flex flex-col justify-end">
+                    <div className="absolute inset-0 p-6 md:p-10 flex flex-col justify-end">
                       <div className="space-y-4">
                         <div className="flex items-center space-x-3">
                           <div className="h-px w-12 bg-neon-blue" />
                           <span className="text-neon-blue font-black uppercase tracking-widest text-[10px] italic">Catégorie</span>
                         </div>
                         
-                        <h3 className="text-4xl md:text-5xl font-display font-black text-white uppercase italic leading-none group-hover:text-neon-blue transition-colors duration-500">
+                        <h3 className="text-3xl sm:text-4xl md:text-5xl font-display font-black text-white uppercase italic leading-none group-hover:text-neon-blue transition-colors duration-500">
                           {category.name.split(' ').map((word, idx) => (
-                            <span key={idx} className="block">{word}</span>
+                            <span key={idx} className="md:block">{word} </span>
                           ))}
                         </h3>
                         
@@ -117,12 +117,12 @@ export default function CategoriesPage() {
       </section>
 
       {/* Newsletter / Call to Action */}
-      <section className="py-24 relative overflow-hidden">
+      <section className="py-14 md:py-24 relative overflow-x-clip">
         <div className="max-w-5xl mx-auto px-4">
           <motion.div 
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
-            className="glass-blue p-12 md:p-20 rounded-[4rem] text-center relative border-white/10 overflow-hidden shadow-2xl"
+            className="glass-blue p-6 md:p-20 rounded-[4rem] text-center relative border-white/10 overflow-hidden shadow-2xl"
           >
              <div className="absolute top-0 right-0 opacity-[0.05] pointer-events-none">
                 <span className="text-[15rem] font-display font-black italic">PNEUS</span>

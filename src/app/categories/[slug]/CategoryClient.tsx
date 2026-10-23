@@ -31,7 +31,7 @@ export default function CategoryPage({ params }: PageProps) {
       <Navbar />
 
       {/* Dynamic Hero Section */}
-      <section className="pt-52 pb-24 relative overflow-hidden">
+      <section className="pt-52 pb-14 md:pb-24 relative overflow-x-clip">
         {/* Background Decoration */}
         <div className="absolute top-0 right-0 opacity-[0.03] select-none pointer-events-none -mr-20">
           <span className="font-display font-black decor-text italic text-white uppercase">{category.slug.split('-')[0]}</span>
@@ -111,7 +111,7 @@ export default function CategoryPage({ params }: PageProps) {
       </section>
 
       {/* Products Grid */}
-      <section className="py-24 relative z-10">
+      <section className="py-14 md:py-24 relative z-10">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
             {categoryProducts.map((product, index) => (

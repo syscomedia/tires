@@ -57,7 +57,7 @@ export default function FloatingContact() {
             transition={{ type: "spring", duration: 0.6 }}
             className="fixed inset-0 z-[101] flex items-center justify-center p-4 pointer-events-none"
           >
-            <div className="w-full max-w-lg glass-blue p-10 md:p-14 rounded-[4rem] border-white/10 shadow-[0_0_100px_rgba(0,242,255,0.2)] relative overflow-hidden pointer-events-auto">
+            <div className="w-full max-w-lg glass-blue p-6 md:p-14 rounded-[4rem] border-white/10 shadow-[0_0_100px_rgba(0,242,255,0.2)] relative overflow-hidden pointer-events-auto">
 
               {/* Massive Close Button */}
               <button

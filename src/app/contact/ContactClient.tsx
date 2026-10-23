@@ -23,7 +23,7 @@ export default function ContactPage() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-48 pb-20 relative overflow-hidden">
+      <section className="pt-36 md:pt-48 pb-20 relative overflow-x-clip">
         <div className="absolute top-0 right-0 opacity-[0.03] select-none pointer-events-none -mr-20">
           <span className="font-display font-black decor-text italic text-white">CONTACT</span>
         </div>
@@ -222,7 +222,7 @@ export default function ContactPage() {
       </section>
 
       {/* Map Section */}
-      <section className="py-24 relative overflow-hidden">
+      <section className="py-14 md:py-24 relative overflow-x-clip">
         <div className="max-w-7xl mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 50 }}

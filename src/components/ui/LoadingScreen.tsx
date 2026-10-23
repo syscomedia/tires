@@ -29,7 +29,7 @@ export default function LoadingScreen({ onComplete }: { onComplete: () => void }
       className="fixed inset-0 z-[100] bg-carbon-black flex flex-col items-center justify-center p-4 overflow-hidden"
     >
       {/* Mesh Background for Loader */}
-      <div className="absolute inset-0 bg-mesh opacity-50" />
+      <div className="absolute inset-0 bg-glow opacity-50" />
 
       <div className="relative z-10 w-full max-w-xs flex flex-col items-center">
         {/* Animated Logo */}

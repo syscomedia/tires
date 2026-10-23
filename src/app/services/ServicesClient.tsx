@@ -44,7 +44,7 @@ export default function ServicesPage() {
     <main className="relative flex-1 bg-mesh">
       <Navbar />
 
-      <section className="pt-48 pb-24 relative overflow-hidden">
+      <section className="pt-36 md:pt-48 pb-14 md:pb-24 relative overflow-x-clip">
         <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
@@ -72,7 +72,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <section className="py-24 relative">
+      <section className="py-14 md:py-24 relative">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             {services.map((s, i) => (
@@ -86,7 +86,7 @@ export default function ServicesPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ delay: i * 0.1 }}
                   viewport={{ once: true }}
-                  className="group p-10 glass border-white/5 rounded-[2.5rem] hover:border-neon-blue/30 transition-all duration-500 relative overflow-hidden h-full"
+                  className="group p-6 md:p-10 glass border-white/5 rounded-[2.5rem] hover:border-neon-blue/30 transition-all duration-500 relative overflow-hidden h-full"
                 >
                   <div className="absolute top-0 right-0 p-8 opacity-[0.03] group-hover:opacity-[0.08] transition-opacity">
                     <s.icon className="w-32 h-32" />
@@ -110,10 +110,10 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-32 relative overflow-hidden">
-        <div className="absolute inset-0 bg-neon-blue/10 animate-pulse-slow" />
+      <section className="py-16 md:py-32 relative overflow-x-clip">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(0,242,255,0.12),transparent_70%)] animate-pulse-slow pointer-events-none" />
         <div className="max-w-7xl mx-auto px-4 relative z-10">
-          <div className="glass-blue p-12 md:p-20 rounded-[3rem] border-white/10 flex flex-col lg:flex-row items-center justify-between gap-12 shadow-2xl">
+          <div className="glass-blue p-6 md:p-20 rounded-[3rem] border-white/10 flex flex-col lg:flex-row items-center justify-between gap-12 shadow-2xl">
             <div className="text-center lg:text-left">
               <h2 className="text-4xl md:text-6xl font-display font-black uppercase italic mb-4 leading-none tracking-tighter text-white">
                 BESOIN D'UN <br /><span className="text-neon-blue">MONTAGE DE PNEUS ?</span>

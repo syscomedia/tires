@@ -6,14 +6,14 @@ import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-mesh text-white pt-32 pb-16 border-t border-white/5 relative overflow-hidden">
+    <footer className="text-white pt-16 md:pt-32 pb-28 md:pb-16 relative overflow-x-clip">
       {/* Decorative background text */}
       <div className="absolute bottom-0 right-0 w-full h-full overflow-hidden pointer-events-none opacity-[0.02] flex items-end justify-end select-none">
         <span className="text-[20vw] font-display font-black italic -mb-20 -mr-10">PS 93</span>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-16 mb-12 md:mb-24">
           {/* Brand Info */}
           <div className="space-y-8">
             <Link href="/" className="inline-block group">

@@ -14,7 +14,7 @@ export default function BlogClient() {
       <Navbar />
 
       {/* Hero */}
-      <section className="pt-48 pb-20 relative overflow-hidden">
+      <section className="pt-36 md:pt-48 pb-20 relative overflow-x-clip">
         <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
           <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} className="inline-flex items-center space-x-2 text-racing-red mb-6">
             <BookOpen className="w-5 h-5" />
@@ -95,7 +95,7 @@ export default function BlogClient() {
       {/* SEO text block — keyword-rich natural text for Google */}
       <section className="py-16 relative z-10">
         <div className="max-w-4xl mx-auto px-4">
-          <div className="glass p-10 md:p-14 rounded-[3rem] border-white/5">
+          <div className="glass p-6 md:p-14 rounded-[3rem] border-white/5">
             <h2 className="text-3xl font-display font-black text-white uppercase italic mb-8 leading-tight">
               VOTRE SPÉCIALISTE PNEUS À ÉPINAY-SUR-SEINE (93)
             </h2>

@@ -47,7 +47,7 @@ export default function FreinagePage() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="pt-48 pb-24 relative overflow-hidden">
+      <section className="pt-36 md:pt-48 pb-14 md:pb-24 relative overflow-x-clip">
         <div className="max-w-7xl mx-auto px-4 relative z-10">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
@@ -98,14 +98,14 @@ export default function FreinagePage() {
       </section>
 
       {/* Main Content */}
-      <section className="py-24 relative">
+      <section className="py-14 md:py-24 relative">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-32">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="glass p-12 rounded-[3rem] border-white/5 relative overflow-hidden group"
+              className="glass p-6 md:p-12 rounded-[3rem] border-white/5 relative overflow-hidden group"
             >
               <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity">
                 <Target className="w-32 h-32" />
@@ -131,7 +131,7 @@ export default function FreinagePage() {
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="glass p-12 rounded-[3rem] border-white/5 relative overflow-hidden group"
+              className="glass p-6 md:p-12 rounded-[3rem] border-white/5 relative overflow-hidden group"
             >
               <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity">
                 <CircleCheckBig className="w-32 h-32" />
@@ -163,7 +163,7 @@ export default function FreinagePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.1 }}
                 viewport={{ once: true }}
-                className="glass p-10 rounded-[2.5rem] border-white/5 hover:border-neon-blue/30 transition-all duration-500 group"
+                className="glass p-6 md:p-10 rounded-[2.5rem] border-white/5 hover:border-neon-blue/30 transition-all duration-500 group"
               >
                 <div className="bg-neon-blue/10 p-4 rounded-2xl w-fit mb-8 text-neon-blue group-hover:bg-neon-blue group-hover:text-white transition-all duration-500">
                   <item.icon className="w-6 h-6" />
@@ -181,13 +181,13 @@ export default function FreinagePage() {
       </section>
 
       {/* Final Message */}
-      <section className="py-24 relative overflow-hidden">
+      <section className="py-14 md:py-24 relative overflow-x-clip">
         <div className="max-w-4xl mx-auto px-4 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="glass p-12 md:p-16 rounded-[3rem] border-white/10"
+            className="glass p-6 md:p-16 rounded-[3rem] border-white/10"
           >
             <h2 className="text-3xl md:text-5xl font-display font-black text-white mb-8 uppercase italic leading-tight">
               POLE POSITION VOUS GARANTIT <br />

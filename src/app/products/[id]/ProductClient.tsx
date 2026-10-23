@@ -24,13 +24,13 @@ export default function ProductPage({ params }: PageProps) {
     <main className="relative flex-1 bg-mesh">
       <Navbar />
 
-      <section className="pt-48 pb-24 relative overflow-hidden">
+      <section className="pt-36 md:pt-48 pb-14 md:pb-24 relative overflow-x-clip">
         <div className="absolute top-0 right-0 opacity-[0.03] select-none pointer-events-none -mr-20">
           <span className="font-display font-black decor-text italic">PNEUS</span>
         </div>
         <div className="max-w-7xl mx-auto px-4">
           {/* Breadcrumbs */}
-          <nav className="flex items-center space-x-3 text-[10px] font-black uppercase tracking-[0.3em] text-white/40 mb-12">
+          <nav className="flex flex-wrap items-center gap-x-3 gap-y-2 text-[10px] font-black uppercase tracking-[0.15em] md:tracking-[0.3em] text-white/40 mb-8 md:mb-12">
             <Link href="/" className="hover:text-neon-blue transition-colors">Accueil</Link>
             <span className="w-1 h-1 bg-white/20 rounded-full" />
             <Link href="/categories" className="hover:text-neon-blue transition-colors">Nos Pneus</Link>
@@ -40,7 +40,7 @@ export default function ProductPage({ params }: PageProps) {
             <span className="text-neon-blue italic">{product.name}</span>
           </nav>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20">
             {/* Product Image */}
             <div className="space-y-6">
               <motion.div
@@ -58,7 +58,7 @@ export default function ProductPage({ params }: PageProps) {
                 <div className="absolute inset-0 bg-gradient-to-tr from-neon-blue/10 to-transparent" />
               </motion.div>
 
-              <div className="grid grid-cols-4 gap-4">
+              <div className="hidden sm:grid grid-cols-4 gap-4">
                 {[1, 2, 3, 4].map((i) => (
                   <motion.div
                     key={i}
@@ -148,7 +148,7 @@ export default function ProductPage({ params }: PageProps) {
       </section>
 
       {/* Description Section */}
-      <section className="py-24 relative overflow-hidden">
+      <section className="py-14 md:py-24 relative overflow-x-clip">
         <div className="max-w-7xl mx-auto px-4 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -159,7 +159,7 @@ export default function ProductPage({ params }: PageProps) {
             <h2 className="text-4xl md:text-5xl font-display font-black text-white mb-12 uppercase italic leading-none tracking-tighter">
               POURQUOI <span className="text-gradient animate-glow">CE PNEU ?</span>
             </h2>
-            <div className="glass p-10 md:p-16 rounded-[3rem] border-white/5 space-y-10">
+            <div className="glass p-6 md:p-16 rounded-[3rem] border-white/5 space-y-10">
               <div className="space-y-6 text-white/50 text-xl leading-relaxed font-medium">
                 <p>
                   <span className="text-white font-bold italic">{product.name}</span> fait partie de notre sélection rigoureuse chez POLE POSITION. Chaque pneu en stock est contrôlé avant montage par nos techniciens certifiés à Épinay-sur-Seine.

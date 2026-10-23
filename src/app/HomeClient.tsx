@@ -68,7 +68,7 @@ export default function Home() {
           <CategorySection />
 
           {/* Brands Banner */}
-          <section className="py-16 border-y border-white/5 overflow-hidden">
+          <section className="py-12 md:py-16 overflow-x-clip">
             <div className="max-w-7xl mx-auto px-4">
               <p className="text-center text-white/20 font-black uppercase tracking-[0.4em] text-[10px] mb-10">Marques Disponibles en Stock</p>
               <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10">
@@ -89,9 +89,9 @@ export default function Home() {
           </section>
 
           {/* Services Section */}
-          <section className="py-32 relative overflow-hidden">
+          <section className="py-16 md:py-32 relative overflow-x-clip">
             <div className="max-w-7xl mx-auto px-4 relative z-10">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
                 <motion.div
                   initial={{ opacity: 0, x: -50 }}
                   whileInView={{ opacity: 1, x: 0 }}
@@ -148,7 +148,7 @@ export default function Home() {
           </section>
 
           {/* Trust Section - L'Excellence en Chiffres */}
-          <section className="py-32 relative overflow-hidden">
+          <section className="py-16 md:py-32 relative overflow-x-clip">
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-[0.03] select-none pointer-events-none">
               <span className="font-display font-black decor-text italic">EXCELLENCE</span>
             </div>
@@ -159,7 +159,7 @@ export default function Home() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
               >
-                <h3 className="text-4xl md:text-6xl font-display font-black text-white mb-24 uppercase italic tracking-tighter leading-none">
+                <h3 className="text-4xl md:text-6xl font-display font-black text-white mb-12 md:mb-24 uppercase italic tracking-tighter leading-none">
                   L'EXCELLENCE <br className="md:hidden" /> EN <span className="text-gradient">CHIFFRES</span>
                 </h3>
               </motion.div>
@@ -178,7 +178,7 @@ export default function Home() {
                     transition={{ delay: i * 0.1 }}
                     viewport={{ once: true }}
                     whileHover={{ y: -10, scale: 1.02 }}
-                    className="relative p-10 glass rounded-[2.5rem] border-white/5 group overflow-hidden"
+                    className="relative p-6 md:p-10 glass rounded-[2.5rem] border-white/5 group overflow-hidden"
                   >
                     <div className="absolute -inset-2 bg-gradient-to-br from-neon-blue/20 via-transparent to-amber-gold/20 opacity-0 group-hover:opacity-100 transition-opacity blur-xl" />
 

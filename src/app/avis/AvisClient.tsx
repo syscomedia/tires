@@ -85,7 +85,7 @@ export default function AvisClient() {
       <Navbar />
 
       {/* Hero */}
-      <section className="pt-48 pb-20 relative overflow-hidden">
+      <section className="pt-36 md:pt-48 pb-20 relative overflow-x-clip">
         <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
           <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} className="inline-flex items-center space-x-2 text-racing-red mb-6">
             <Star className="w-5 h-5 fill-racing-red" />
@@ -99,15 +99,15 @@ export default function AvisClient() {
           </motion.p>
 
           {/* Stats row */}
-          <div className="grid grid-cols-3 gap-6 max-w-xl mx-auto mt-12">
+          <div className="grid grid-cols-3 gap-3 md:gap-6 max-w-xl mx-auto mt-10 md:mt-12">
             {[
               { value: "4.9/5", label: "Note moyenne" },
               { value: "127", label: "Avis vérifiés" },
               { value: "7j/7", label: "Disponibilité" },
             ].map((s) => (
-              <div key={s.label} className="glass p-6 rounded-2xl border-white/5">
-                <p className="text-3xl font-display font-black text-white italic mb-1">{s.value}</p>
-                <p className="text-white/30 text-[10px] font-black uppercase tracking-widest">{s.label}</p>
+              <div key={s.label} className="glass px-2 py-4 md:p-6 rounded-2xl border-white/5">
+                <p className="text-2xl md:text-3xl font-display font-black text-white italic mb-1">{s.value}</p>
+                <p className="text-white/30 text-[9px] md:text-[10px] font-black uppercase tracking-wider md:tracking-widest">{s.label}</p>
               </div>
             ))}
           </div>
@@ -147,7 +147,7 @@ export default function AvisClient() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="mt-16 glass-red p-10 md:p-14 rounded-[3rem] border-white/10 text-center"
+            className="mt-16 glass-red p-6 md:p-14 rounded-[3rem] border-white/10 text-center"
           >
             <MessageCircle className="w-12 h-12 text-racing-red mx-auto mb-6" />
             <h2 className="text-3xl md:text-5xl font-display font-black text-white uppercase italic mb-4 leading-tight">
@@ -170,9 +170,9 @@ export default function AvisClient() {
       </section>
 
       {/* FAQ Section */}
-      <section className="py-24 relative z-10">
+      <section className="py-14 md:py-24 relative z-10">
         <div className="max-w-4xl mx-auto px-4">
-          <div className="text-center mb-16">
+          <div className="text-center mb-10 md:mb-16">
             <h2 className="text-4xl md:text-6xl font-display font-black text-white uppercase italic leading-none tracking-tighter mb-4">
               QUESTIONS <span className="text-gradient">FRÉQUENTES</span>
             </h2>

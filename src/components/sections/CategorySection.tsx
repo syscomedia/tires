@@ -26,14 +26,14 @@ const categoryColors: Record<string, string> = {
 
 export default function CategorySection() {
   return (
-    <section className="py-32 bg-mesh relative overflow-hidden">
+    <section className="py-16 md:py-32 relative overflow-x-clip">
       {/* Decorative background text */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none opacity-[0.02] flex items-center justify-center select-none">
         <span className="text-[40vw] font-display font-black italic -rotate-12">PNEUS</span>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 relative z-10">
-        <div className="text-center mb-24">
+        <div className="text-center mb-12 md:mb-24">
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             whileInView={{ opacity: 1, scale: 1 }}

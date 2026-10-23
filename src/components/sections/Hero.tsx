@@ -8,15 +8,15 @@ import { cn } from "@/lib/utils";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen min-h-[800px] flex items-center overflow-hidden bg-mesh">
+    <section className="relative min-h-[100svh] md:min-h-[800px] flex items-center overflow-x-clip">
       {/* Background Image with Dynamic Overlay */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 overflow-hidden [mask-image:linear-gradient(to_bottom,black_60%,transparent)]">
         <img
           src="/images/categories/TIRES.png"
           alt="POLE POSITION"
           className="absolute inset-0 w-full h-full object-cover opacity-50 scale-105"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-carbon-black via-carbon-black/80 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-carbon-black/70 via-carbon-black/60 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-r from-carbon-black via-transparent to-transparent" />
       </div>
 
@@ -38,7 +38,7 @@ export default function Hero() {
         className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-amber-gold/5 rounded-full blur-[120px] z-0"
       />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 w-full pt-[24rem] md:pt-32">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 w-full pt-36 pb-12 md:pt-32 md:pb-16">
         <div className="max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -58,7 +58,7 @@ export default function Hero() {
               <span>Épinay-sur-Seine — 93800</span>
             </motion.div>
 
-            <h1 className="text-5xl md:text-8xl font-display font-black text-white mb-6 leading-[0.95] tracking-tight italic">
+            <h1 className="text-[2.75rem] sm:text-6xl md:text-8xl font-display font-black text-white mb-6 leading-[0.95] tracking-tight italic">
               VOS PNEUS, <br />
               <span className="text-gradient animate-glow drop-shadow-[0_0_15px_rgba(0,242,255,0.5)]">NOTRE PASSION.</span>
             </h1>

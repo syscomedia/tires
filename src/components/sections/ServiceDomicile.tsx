@@ -23,12 +23,12 @@ export default function ServiceDomicile() {
   ];
 
   return (
-    <section className="py-24 bg-carbon-black relative overflow-hidden">
+    <section className="py-14 md:py-24 relative overflow-x-clip">
       {/* Decorative background circle */}
       <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[500px] h-[500px] bg-neon-blue/5 rounded-full blur-[120px] pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
