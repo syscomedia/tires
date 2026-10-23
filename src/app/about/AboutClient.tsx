@@ -23,14 +23,14 @@ export default function AboutPage() {
             className="inline-flex items-center space-x-2 text-neon-blue mb-6"
           >
             <Sparkles className="w-5 h-5" />
-            <span className="font-black uppercase tracking-widest text-sm">POLE POSITION — Qui sommes-nous ?</span>
+            <span className="font-black uppercase tracking-widest text-sm">PNEU SERVICES 93 — Qui sommes-nous ?</span>
           </motion.div>
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             className="text-6xl md:text-8xl font-display font-black mb-8 uppercase italic leading-none tracking-tighter text-white"
           >
-            À PROPOS DE <br /><span className="text-gradient">POLE POSITION</span>
+            À PROPOS DE <br /><span className="text-gradient">PNEU SERVICES 93</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
@@ -58,7 +58,7 @@ export default function AboutPage() {
             </div>
             <img
               src="/images/categories/about.jpg"
-              alt="About POLE POSITION"
+              alt="About PNEU SERVICES 93"
               className="absolute inset-0 w-full h-full object-cover opacity-60 transition-all duration-1000"
             />
           </motion.div>
@@ -71,7 +71,7 @@ export default function AboutPage() {
             <span className="text-neon-blue font-black uppercase tracking-[0.3em] text-xs mb-6 block italic">Notre Histoire</span>
             <h2 className="text-5xl font-display font-black text-white mb-8 uppercase italic leading-none tracking-tighter">EXPERTISE & <span className="text-gradient">PASSION.</span></h2>
             <p className="text-white/50 mb-8 text-lg leading-relaxed font-medium">
-              Basée au 2 Rue Claude Debussy, 93800 Épinay-sur-Seine, <strong>POLE POSITION</strong> est née de la volonté de proposer un service de pneumatiques premium, accessible et disponible 7j/7 pour tous les automobilistes de Seine-Saint-Denis.
+              Basée au 2 Rue Claude Debussy, 93800 Épinay-sur-Seine, <strong>PNEU SERVICES 93</strong> est née de la volonté de proposer un service de pneumatiques premium, accessible et disponible 7j/7 pour tous les automobilistes de Seine-Saint-Denis.
             </p>
             <p className="text-white/50 mb-12 text-lg leading-relaxed font-medium">
               Spécialisés dans le montage de pneus, le freinage et l'entretien automobile, nous mettons un point d'honneur à garantir la qualité de nos interventions. Notre équipe technique certifiée assure un suivi rapide et efficace de chaque véhicule qui entre dans notre centre.

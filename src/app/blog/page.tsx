@@ -6,7 +6,7 @@ const SITE_URL = "https://pneuservices93.com";
 export const metadata: Metadata = {
   title: "Blog Pneus & Auto | Conseils Montage, Hiver, Entretien — Épinay-sur-Seine 93",
   description:
-    "Conseils et guides sur les pneus : quand changer ses pneus, quelle marque choisir, pneus été vs hiver, entretien freinage… Par les experts Pole Position à Épinay-sur-Seine.",
+    "Conseils et guides sur les pneus : quand changer ses pneus, quelle marque choisir, pneus été vs hiver, entretien freinage… Par les experts Pneu Services 93 à Épinay-sur-Seine.",
   keywords: [
     "conseils pneus voiture",
     "quand changer pneus",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: `${SITE_URL}/blog` },
   openGraph: {
-    title: "Blog Pneus & Auto — Conseils Experts | Pole Position 93",
+    title: "Blog Pneus & Auto — Conseils Experts | Pneu Services 93",
     description: "Guides et conseils pneus par vos experts locaux à Épinay-sur-Seine.",
     url: `${SITE_URL}/blog`,
     images: [{ url: `${SITE_URL}/images/categories/TIRES.png`, width: 1200, height: 630 }],

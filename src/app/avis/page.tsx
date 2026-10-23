@@ -12,7 +12,7 @@ const faqSchema = {
       name: "Faut-il prendre rendez-vous pour faire monter des pneus ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Non, chez Pole Position — Pneus Services 93, vous pouvez venir directement sans rendez-vous. Nous sommes ouverts 7j/7 de 9h à 19h au 2 Rue Claude Debussy, 93800 Épinay-sur-Seine.",
+        text: "Non, chez Pneu Services 93, vous pouvez venir directement sans rendez-vous. Nous sommes ouverts 7j/7 de 9h à 19h au 2 Rue Claude Debussy, 93800 Épinay-sur-Seine.",
       },
     },
     {
@@ -52,7 +52,7 @@ const faqSchema = {
       name: "Êtes-vous ouverts le dimanche ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Oui ! Pole Position — Pneus Services 93 est ouvert 7 jours sur 7, y compris le dimanche, de 9h à 19h.",
+        text: "Oui ! Pneu Services 93 est ouvert 7 jours sur 7, y compris le dimanche, de 9h à 19h.",
       },
     },
     {
@@ -69,7 +69,7 @@ const faqSchema = {
 const reviewsSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  name: "Pole Position — Pneus Services 93",
+  name: "Pneu Services 93",
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
@@ -129,19 +129,19 @@ const reviewsSchema = {
 };
 
 export const metadata: Metadata = {
-  title: "Avis Clients | Pole Position Pneus Épinay-sur-Seine 93 — Note 4.9/5",
+  title: "Avis Clients | Pneu Services 93 Épinay-sur-Seine — Note 4.9/5",
   description:
-    "Lisez les avis de nos clients sur Pole Position — Pneus Services 93 à Épinay-sur-Seine. Note moyenne 4.9/5 sur 127 avis. FAQ : montage pneus, freinage, horaires, tarifs.",
+    "Lisez les avis de nos clients sur Pneu Services 93 à Épinay-sur-Seine. Note moyenne 4.9/5 sur 127 avis. FAQ : montage pneus, freinage, horaires, tarifs.",
   keywords: [
     "avis pneus Épinay-sur-Seine",
-    "avis Pole Position pneus 93",
+    "avis Pneu Services 93",
     "meilleur centre pneus Épinay",
     "avis garagiste pneus 93800",
     "centre pneus noté Épinay",
   ],
   alternates: { canonical: `${SITE_URL}/avis` },
   openGraph: {
-    title: "Avis Clients — Pole Position Pneus Épinay-sur-Seine 93 | Note 4.9/5",
+    title: "Avis Clients — Pneu Services 93 Épinay-sur-Seine | Note 4.9/5",
     description: "127 avis clients. Note 4.9/5. Montage pneus, freinage, entretien auto 7j/7.",
     url: `${SITE_URL}/avis`,
     images: [{ url: `${SITE_URL}/images/categories/TIRES.png`, width: 1200, height: 630 }],

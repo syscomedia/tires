@@ -65,15 +65,15 @@ export default function Navbar() {
       )}>
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2 group">
-          <span className="text-3xl md:text-6xl font-display font-black tracking-tighter italic whitespace-nowrap leading-none">
-            <span className="text-neon-blue group-hover:text-white transition-colors">POLE</span>
-            <span className="text-white group-hover:text-neon-blue transition-colors">POSITION</span>
+          <span className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-display font-black tracking-tighter [word-spacing:0.15em] italic whitespace-nowrap leading-none">
+            <span className="text-neon-blue group-hover:text-white transition-colors">PNEU</span>
+            <span className="text-white group-hover:text-neon-blue transition-colors"> SERVICES 93</span>
           </span>
         </Link>
 
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center space-x-8">
+        <div className="hidden lg:flex items-center space-x-6 xl:space-x-8">
           {navigation.map((item) => (
             <Link
               key={item.name}
@@ -89,7 +89,7 @@ export default function Navbar() {
         </div>
 
         {/* CTA Buttons */}
-        <div className="hidden md:flex items-center space-x-4">
+        <div className="hidden lg:flex items-center space-x-4">
           <a
             href="tel:0751257088"
             className="flex items-center space-x-2 text-white bg-neon-blue px-4 py-2 rounded-full hover:bg-neon-blue-hover transition-all"
@@ -101,7 +101,7 @@ export default function Navbar() {
 
         {/* Mobile Menu Button */}
         <button
-          className="md:hidden text-white"
+          className="lg:hidden text-white"
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
         >
           {isMobileMenuOpen ? <X /> : <Menu />}
@@ -118,14 +118,14 @@ export default function Navbar() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setIsMobileMenuOpen(false)}
-              className="fixed inset-0 bg-carbon-black/40 backdrop-blur-2xl z-40 md:hidden"
+              className="fixed inset-0 bg-carbon-black/40 backdrop-blur-2xl z-40 lg:hidden"
             />
 
             <motion.div
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
-              className="absolute top-full left-0 right-0 bg-carbon-black/80 backdrop-blur-3xl border-t border-white/10 p-6 md:hidden flex flex-col space-y-6 z-50 rounded-b-[2rem] shadow-2xl"
+              className="absolute top-full left-0 right-0 bg-carbon-black/80 backdrop-blur-3xl border-t border-white/10 p-6 lg:hidden flex flex-col space-y-6 z-50 rounded-b-[2rem] shadow-2xl"
             >
               {navigation.map((item) => (
                 <Link

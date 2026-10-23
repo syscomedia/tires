@@ -95,7 +95,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!category) return {};
 
   const meta = categoryMeta[slug] ?? {
-    title: `${category.name} — Épinay-sur-Seine 93 | Pole Position Pneus`,
+    title: `${category.name} — Épinay-sur-Seine 93 | Pneu Services 93`,
     description: `${category.description} Montage express inclus. 7j/7 à Épinay-sur-Seine (93).`,
     keywords: ["pneus Épinay-sur-Seine", category.slug, "93"],
   };

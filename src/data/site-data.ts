@@ -185,7 +185,7 @@ export const products: Product[] = [
     name: "Forfait Vidange + Inspection Pneus",
     category: "freinage-entretien",
     price: 79,
-    brand: "POLE POSITION",
+    brand: "PNEU SERVICES 93",
     description: "Vidange huile moteur + filtre à huile neuf + contrôle des niveaux + inspection complète des pneus offerte.",
     image: "/images/categories/brakes.jpg",
     features: ["Vidange huile moteur", "Filtre à huile neuf", "Contrôle des niveaux", "Inspection pneus offerte"]

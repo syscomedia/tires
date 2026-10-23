@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0 overflow-hidden [mask-image:linear-gradient(to_bottom,black_60%,transparent)]">
         <img
           src="/images/categories/TIRES.png"
-          alt="POLE POSITION"
+          alt="PNEU SERVICES 93"
           className="absolute inset-0 w-full h-full object-cover opacity-50 scale-105"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-carbon-black/70 via-carbon-black/60 to-transparent" />
@@ -38,7 +38,7 @@ export default function Hero() {
         className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-amber-gold/5 rounded-full blur-[120px] z-0"
       />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-4 w-full pt-36 pb-12 md:pt-32 md:pb-16">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 w-full pt-36 pb-12 md:pt-48 md:pb-16">
         <div className="max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 50 }}

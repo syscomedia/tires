@@ -14,8 +14,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const product = products.find((p) => p.id === id);
   if (!product) return {};
 
-  const title = `${product.name} — Montage Pneus Épinay-sur-Seine 93 | Pole Position`;
-  const description = `${product.description} Montage & équilibrage inclus. Disponible en stock chez Pole Position, 2 Rue Claude Debussy 93800 Épinay-sur-Seine. 7j/7 de 9h à 19h.`;
+  const title = `${product.name} — Montage Pneus Épinay-sur-Seine 93 | Pneu Services 93`;
+  const description = `${product.description} Montage & équilibrage inclus. Disponible en stock chez Pneu Services 93, 2 Rue Claude Debussy 93800 Épinay-sur-Seine. 7j/7 de 9h à 19h.`;
 
   // Product JSON-LD
   const productSchema = {
@@ -23,14 +23,14 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     "@type": "Product",
     name: product.name,
     description: product.description,
-    brand: { "@type": "Brand", name: product.brand ?? "Pole Position" },
+    brand: { "@type": "Brand", name: product.brand ?? "Pneu Services 93" },
     image: product.image.startsWith("http") ? product.image : `${SITE_URL}${product.image}`,
     offers: {
       "@type": "Offer",
       priceCurrency: "EUR",
       price: product.price,
       availability: "https://schema.org/InStock",
-      seller: { "@type": "LocalBusiness", name: "Pole Position — Pneus Services 93" },
+      seller: { "@type": "LocalBusiness", name: "Pneu Services 93" },
       itemCondition: "https://schema.org/NewCondition",
       url: `${SITE_URL}/products/${product.id}`,
       areaServed: "FR",

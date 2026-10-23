@@ -117,7 +117,7 @@ export default function FloatingContact() {
                 </div>
 
                 <p className="text-white/10 font-black uppercase text-[8px] tracking-[0.5em]">
-                  POLE POSITION • PNEUS SERVICES 93 • ÉPINAY-SUR-SEINE
+                  PNEU SERVICES 93 • ÉPINAY-SUR-SEINE
                 </p>
               </div>
             </div>

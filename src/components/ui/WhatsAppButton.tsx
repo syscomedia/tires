@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function WhatsAppButton() {
   const phoneNumber = "33751257088";
-  const message = "Bonjour POLE POSITION, j'aimerais avoir des renseignements sur vos pneus et services.";
+  const message = "Bonjour PNEU SERVICES 93, j'aimerais avoir des renseignements sur vos pneus et services.";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
   return (

@@ -26,12 +26,12 @@ export default function MontageDePneusPage() {
     },
     {
       title: "Équilibrage",
-      desc: "Après toute installation ou réparation de pneu, le garagiste doit s'assurer que les pneus aient une répartition correcte du poids de l'automobile toute entière, sous peine d'en forcer l'usure. Cette opération est réalisée par POLE POSITION.",
+      desc: "Après toute installation ou réparation de pneu, le garagiste doit s'assurer que les pneus aient une répartition correcte du poids de l'automobile toute entière, sous peine d'en forcer l'usure. Cette opération est réalisée par PNEU SERVICES 93.",
       icon: Grip
     },
     {
       title: "Réparation",
-      desc: "Un pneu ne se consulte pas uniquement en cas de grosses pannes ! Contactez POLE POSITION pour les cas de fuite légère d'air au sein de vos pneus, de chocs ou de déformations légères. Nos techniciens sauront vous aider !",
+      desc: "Un pneu ne se consulte pas uniquement en cas de grosses pannes ! Contactez PNEU SERVICES 93 pour les cas de fuite légère d'air au sein de vos pneus, de chocs ou de déformations légères. Nos techniciens sauront vous aider !",
       icon: Wrench
     },
     {
@@ -41,7 +41,7 @@ export default function MontageDePneusPage() {
     },
     {
       title: "Conseils",
-      desc: "POLE POSITION, ce n'est pas qu'une entreprise de vente et de services. C'est avant tout des experts et des professionnels passionnés et impliqués qui vous conseillent sur l'entretien de vos pneus et l'anticipation des risques.",
+      desc: "PNEU SERVICES 93, ce n'est pas qu'une entreprise de vente et de services. C'est avant tout des experts et des professionnels passionnés et impliqués qui vous conseillent sur l'entretien de vos pneus et l'anticipation des risques.",
       icon: Info
     }
   ];
@@ -123,7 +123,7 @@ export default function MontageDePneusPage() {
                   Avant toute chose, les conducteurs de tous types de véhicules doivent d’abord vérifier que les pneus à monter sont bien conformes aux recommandations du constructeur, tant au niveau de la taille des pneus que des différents indices comme la capacité de charge ou la vitesse.
                 </p>
                 <p>
-                  Certains professionnels comme POLE POSITION effectuent par ailleurs des opérations de montage de pneus pas cher, ou même gratuit notamment lors d’un achat de pneus dans leur magasin de pneus.
+                  Certains professionnels comme PNEU SERVICES 93 effectuent par ailleurs des opérations de montage de pneus pas cher, ou même gratuit notamment lors d’un achat de pneus dans leur magasin de pneus.
                 </p>
                 <p>
                   Généralement, lorsque vous effectuez cette opération dans un centre de montage de pneus, les techniciens en profitent pour déceler les différentes anomalies des trains roulants de votre voiture en se basant sur l’état des pneus, sur les flancs intérieurs et extérieurs.
@@ -152,7 +152,7 @@ export default function MontageDePneusPage() {
                   Il y a en effet une procédure stricte à suivre, notamment le dégonflage et le démontage du pneu à remplacer, l’équilibrage de la roue et le suivi du sens de montage, le gonflage, le remplacement de la valve et les vérifications par rapport aux éventuelles fuites…
                 </p>
                 <p>
-                  Le prix du montage de pneus varie selon les centres d’entretien pneumatiques. Dans tous les cas cependant, il faut prioriser la qualité de service comme c’est le cas chez POLE POSITION.
+                  Le prix du montage de pneus varie selon les centres d’entretien pneumatiques. Dans tous les cas cependant, il faut prioriser la qualité de service comme c’est le cas chez PNEU SERVICES 93.
                 </p>
               </div>
             </motion.div>
@@ -198,7 +198,7 @@ export default function MontageDePneusPage() {
               <span className="text-neon-blue text-2xl md:text-3xl">FAIT LA SÉCURITÉ DE VOTRE VÉHICULE</span>
             </h2>
             <p className="text-white/60 text-lg mb-12 font-medium leading-relaxed">
-              POLE POSITION vous assure un montage de pneus de qualité et certifié pour votre sécurité.
+              PNEU SERVICES 93 vous assure un montage de pneus de qualité et certifié pour votre sécurité.
               Ne vous laissez plus surprendre et suivez nos bons plans !
             </p>
             <div className="flex flex-wrap justify-center gap-6">

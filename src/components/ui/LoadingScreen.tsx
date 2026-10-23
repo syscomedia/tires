@@ -40,8 +40,8 @@ export default function LoadingScreen({ onComplete }: { onComplete: () => void }
           className="mb-12"
         >
           <div className="text-4xl md:text-6xl font-display font-black tracking-tighter italic flex items-center space-x-2">
-            <span className="text-neon-blue drop-shadow-[0_0_15px_rgba(0,242,255,0.5)]">POLE</span>
-            <span className="text-white"> POSITION</span>
+            <span className="text-neon-blue drop-shadow-[0_0_15px_rgba(0,242,255,0.5)]">PNEU</span>
+            <span className="text-white"> SERVICES 93</span>
           </div>
           <div className="h-px w-full bg-gradient-to-r from-transparent via-neon-blue to-transparent mt-2 opacity-50" />
         </motion.div>
@@ -63,7 +63,7 @@ export default function LoadingScreen({ onComplete }: { onComplete: () => void }
           </div>
 
           <p className="text-white/20 font-black uppercase text-[8px] tracking-[0.5em] text-center animate-pulse">
-            POLE POSITION — Épinay-sur-Seine
+            PNEU SERVICES 93 — Épinay-sur-Seine
           </p>
         </div>
       </div>

@@ -27,7 +27,7 @@ export default function EquilibragePage() {
     },
     {
       title: "Réparation",
-      desc: "Un pneu ne se consulte pas uniquement en cas de grosses pannes ! Contactez POLE POSITION pour les cas de fuite légère d'air au sein de vos pneus, de chocs ou de déformations légères. Nos techniciens sauront vous aider !",
+      desc: "Un pneu ne se consulte pas uniquement en cas de grosses pannes ! Contactez PNEU SERVICES 93 pour les cas de fuite légère d'air au sein de vos pneus, de chocs ou de déformations légères. Nos techniciens sauront vous aider !",
       icon: Wrench
     },
     {
@@ -37,7 +37,7 @@ export default function EquilibragePage() {
     },
     {
       title: "Conseils",
-      desc: "POLE POSITION vous conseille sur l'entretien de vos pneus et l'anticipation des risques et des dangers qu'ils peuvent encourir. Ne vous laissez plus surprendre et suivez nos bons plans !",
+      desc: "PNEU SERVICES 93 vous conseille sur l'entretien de vos pneus et l'anticipation des risques et des dangers qu'ils peuvent encourir. Ne vous laissez plus surprendre et suivez nos bons plans !",
       icon: Info
     }
   ];
@@ -87,7 +87,7 @@ export default function EquilibragePage() {
             transition={{ delay: 0.2 }}
             className="text-white/60 max-w-2xl text-xl leading-relaxed font-medium mb-12"
           >
-            ZOOM SUR L’ÉQUILIBRAGE DE VOS PNEUS. Après une crevaison ou l’achat de nouveaux pneus, leur installation nécessite l’expertise de professionnels comme POLE POSITION.
+            ZOOM SUR L’ÉQUILIBRAGE DE VOS PNEUS. Après une crevaison ou l’achat de nouveaux pneus, leur installation nécessite l’expertise de professionnels comme PNEU SERVICES 93.
           </motion.p>
         </div>
 
@@ -142,13 +142,13 @@ export default function EquilibragePage() {
               </h2>
               <div className="space-y-6 text-white/50 leading-relaxed font-medium">
                 <p>
-                  Pour éviter toute sensation de vibration, surtout dans les périodes de l’année les plus exigeantes, procédez à un équilibrage chez POLE POSITION.
+                  Pour éviter toute sensation de vibration, surtout dans les périodes de l’année les plus exigeantes, procédez à un équilibrage chez PNEU SERVICES 93.
                 </p>
                 <p>
                   L’équilibrage de vos pneus peut être réalisé par notre garage sans rendez-vous ou en complément d’achat de pneus. Profitez de nos prix discount !
                 </p>
                 <p>
-                  Rendez-vous chez POLE POSITION et faites vérifier le parallélisme de votre auto pour une longévité maximale de vos équipements.
+                  Rendez-vous chez PNEU SERVICES 93 et faites vérifier le parallélisme de votre auto pour une longévité maximale de vos équipements.
                 </p>
               </div>
             </motion.div>
@@ -195,7 +195,7 @@ export default function EquilibragePage() {
             </h2>
             <p className="text-white/60 text-lg mb-12 font-medium leading-relaxed">
               Nos experts assurent un équilibrage haute précision pour votre confort et votre sécurité.
-              Venez sans rendez-vous dans notre centre POLE POSITION.
+              Venez sans rendez-vous dans notre centre PNEU SERVICES 93.
             </p>
             <div className="flex flex-wrap justify-center gap-6">
               <Link

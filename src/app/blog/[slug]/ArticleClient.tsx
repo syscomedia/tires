@@ -57,7 +57,7 @@ export default function ArticleClient({ slug, content, article }: ArticleClientP
               <Clock className="w-4 h-4" />
               <span>{article.readTime} de lecture</span>
             </div>
-            <span>Par Pole Position Pneus 93</span>
+            <span>Par Pneu Services 93</span>
           </div>
         </div>
       </section>

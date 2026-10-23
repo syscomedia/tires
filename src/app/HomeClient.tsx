@@ -102,7 +102,7 @@ export default function Home() {
                     PLUS QU'UN GARAGISTE, <br /><span className="text-gradient">VOTRE PARTENAIRE.</span>
                   </h2>
                   <p className="text-white/50 mb-10 text-xl leading-relaxed font-medium">
-                    POLE POSITION redéfinit le service pneu avec une précision chirurgicale et une passion sans limite. Ouvert 7j/7 de 9h à 19h à Épinay-sur-Seine.
+                    PNEU SERVICES 93 redéfinit le service pneu avec une précision chirurgicale et une passion sans limite. Ouvert 7j/7 de 9h à 19h à Épinay-sur-Seine.
                   </p>
                   <div className="space-y-6 mb-12">
                     {[

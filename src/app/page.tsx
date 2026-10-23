@@ -4,7 +4,7 @@ import HomeClient from "./HomeClient";
 const SITE_URL = "https://pneuservices93.com";
 
 export const metadata: Metadata = {
-  title: "Pose Pneus Épinay-sur-Seine 93 | Pole Position — Montage 7j/7",
+  title: "Pose Pneus Épinay-sur-Seine 93 | Pneu Services 93 — Montage 7j/7",
   description:
     "Pose et montage de pneus à Épinay-sur-Seine (93800). Pneus neufs & occasion, équilibrage, freinage, vidange. Toutes marques : Michelin, Bridgestone, Continental. Ouvert 7j/7 de 9h à 19h.",
   keywords: [

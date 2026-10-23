@@ -162,7 +162,7 @@ export default function ProductPage({ params }: PageProps) {
             <div className="glass p-6 md:p-16 rounded-[3rem] border-white/5 space-y-10">
               <div className="space-y-6 text-white/50 text-xl leading-relaxed font-medium">
                 <p>
-                  <span className="text-white font-bold italic">{product.name}</span> fait partie de notre sélection rigoureuse chez POLE POSITION. Chaque pneu en stock est contrôlé avant montage par nos techniciens certifiés à Épinay-sur-Seine.
+                  <span className="text-white font-bold italic">{product.name}</span> fait partie de notre sélection rigoureuse chez PNEU SERVICES 93. Chaque pneu en stock est contrôlé avant montage par nos techniciens certifiés à Épinay-sur-Seine.
                 </p>
                 <p>
                   Que vous rouliez en ville, sur autoroute ou sur terrain mixte, ce pneu est conçu pour vous offrir la meilleure combinaison de sécurité, longévité et performance pour votre véhicule.

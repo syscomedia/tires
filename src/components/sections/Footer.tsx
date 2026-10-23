@@ -17,9 +17,9 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="space-y-8">
             <Link href="/" className="inline-block group">
-              <span className="text-3xl font-display font-black tracking-tighter italic">
-                <span className="text-neon-blue group-hover:text-white transition-colors">POLE</span>
-                <span className="text-white group-hover:text-neon-blue transition-colors"> POSITION</span>
+              <span className="text-3xl font-display font-black tracking-tighter [word-spacing:0.15em] italic">
+                <span className="text-neon-blue group-hover:text-white transition-colors">PNEU</span>
+                <span className="text-white group-hover:text-neon-blue transition-colors"> SERVICES 93</span>
               </span>
             </Link>
             <p className="text-white/40 text-sm leading-relaxed font-medium">
@@ -90,7 +90,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-12 border-t border-white/5 flex flex-col lg:flex-row items-center justify-between gap-8 text-white/20 text-[10px] font-black uppercase tracking-[0.2em]">
-          <p>© 2026 POLE POSITION — PNEUS SERVICES 93. RCS BOBIGNY 103 861 852.</p>
+          <p>© 2026 PNEU SERVICES 93. RCS BOBIGNY 103 861 852.</p>
           <div className="flex space-x-8">
             <Link href="/legal" className="hover:text-white transition-colors">Mentions Légales</Link>
             <Link href="/privacy" className="hover:text-white transition-colors">Confidentialité</Link>

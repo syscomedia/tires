@@ -4,7 +4,7 @@ import CategoriesClient from "./CategoriesClient";
 const SITE_URL = "https://pneuservices93.com";
 
 export const metadata: Metadata = {
-  title: "Pneus Été, Hiver, 4x4, Utilitaires — Épinay-sur-Seine 93 | Pole Position",
+  title: "Pneus Été, Hiver, 4x4, Utilitaires — Épinay-sur-Seine 93 | Pneu Services 93",
   description:
     "Toutes nos gammes de pneus à Épinay-sur-Seine : pneus été, hiver, toutes saisons, 4x4 & SUV, utilitaires. Montage express inclus. Toutes marques : Michelin, Bridgestone, Continental, Goodyear.",
   keywords: [

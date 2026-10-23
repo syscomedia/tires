@@ -17,8 +17,8 @@ const jsonLd = {
     {
       "@type": ["AutoRepair", "TireShop", "LocalBusiness"],
       "@id": `${SITE_URL}/#business`,
-      name: "Pole Position — Pneus Services 93",
-      alternateName: ["Pole Position Pneus", "Pneus Services 93", "Pneus Épinay-sur-Seine"],
+      name: "Pneu Services 93",
+      alternateName: ["Pneus Services 93", "Pneus Épinay-sur-Seine"],
       url: SITE_URL,
       telephone: PHONE,
       email: "pneuservices93@gmail.com",
@@ -107,7 +107,7 @@ const jsonLd = {
       "@type": "WebSite",
       "@id": `${SITE_URL}/#website`,
       url: SITE_URL,
-      name: "Pole Position — Pneus Services 93",
+      name: "Pneu Services 93",
       description: "Votre spécialiste pneus en Seine-Saint-Denis. Montage, équilibrage, freinage, entretien 7j/7.",
       inLanguage: "fr-FR",
       publisher: { "@id": `${SITE_URL}/#business` },
@@ -123,8 +123,8 @@ const jsonLd = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Pose Pneus Épinay-sur-Seine 93 | Pole Position — Montage 7j/7",
-    template: "%s | Pole Position Pneus 93",
+    default: "Pose Pneus Épinay-sur-Seine 93 | Pneu Services 93 — Montage 7j/7",
+    template: "%s | Pneu Services 93",
   },
   description:
     "Spécialiste pneus à Épinay-sur-Seine (93800). Montage & équilibrage express, pneus neufs et occasion, freinage, vidange. Ouvert 7j/7 de 9h à 19h. Toutes marques : Michelin, Continental, Bridgestone…",
@@ -163,9 +163,9 @@ export const metadata: Metadata = {
     "pneus Pierrefitte-sur-Seine",
     "pneus Île-de-France",
   ],
-  authors: [{ name: "Pole Position — Pneus Services 93", url: SITE_URL }],
-  creator: "Pole Position — Pneus Services 93",
-  publisher: "Pole Position — Pneus Services 93",
+  authors: [{ name: "Pneu Services 93", url: SITE_URL }],
+  creator: "Pneu Services 93",
+  publisher: "Pneu Services 93",
   robots: {
     index: true,
     follow: true,
@@ -181,7 +181,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "fr_FR",
     url: SITE_URL,
-    siteName: "Pole Position — Pneus Services 93",
+    siteName: "Pneu Services 93",
     title: "Pose Pneus Épinay-sur-Seine 93 | Montage 7j/7 — Toutes Marques",
     description:
       "Centre pneus à Épinay-sur-Seine (93800). Montage express, freinage, vidange. Pneus neufs & occasion : Michelin, Bridgestone, Continental… Ouvert 7j/7 de 9h à 19h.",
@@ -190,13 +190,13 @@ export const metadata: Metadata = {
         url: `${SITE_URL}/images/categories/TIRES.png`,
         width: 1200,
         height: 630,
-        alt: "Pole Position — Spécialiste pneus Épinay-sur-Seine 93",
+        alt: "Pneu Services 93 — Spécialiste pneus Épinay-sur-Seine 93",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pose Pneus Épinay-sur-Seine 93 | Pole Position — 7j/7",
+    title: "Pose Pneus Épinay-sur-Seine 93 | Pneu Services 93 — 7j/7",
     description: "Montage & équilibrage pneus, freinage, entretien auto. Ouvert 7j/7 de 9h à 19h à Épinay-sur-Seine.",
     images: [`${SITE_URL}/images/categories/TIRES.png`],
   },

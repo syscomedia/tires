@@ -20,7 +20,7 @@ const articleContent: Record<string, { title: string; description: string; body:
       "**3. Des vibrations anormales au volant.** Si votre volant vibre lors de la conduite, cela peut signaler un problème d'équilibrage ou de déformation de pneu. Un équilibrage ou un remplacement s'impose.",
       "**4. Votre voiture tire d'un côté.** Si votre véhicule dévie naturellement sur un côté, c'est souvent le signe d'une usure irrégulière des pneus ou d'un problème de géométrie (parallélisme). Faites contrôler votre voiture rapidement.",
       "**5. Vous entendez un bruit sourd en roulant.** Un bruit de roulement régulier peut indiquer qu'un pneu est endommagé ou déformé. Ne tardez pas : un pneu qui lâche à vitesse élevée peut être fatal.",
-      "**Notre conseil :** Chez Pole Position — Pneus Services 93, nous proposons un contrôle de vos pneus gratuit. Venez nous voir au 2 Rue Claude Debussy, 93800 Épinay-sur-Seine, 7j/7 de 9h à 19h. Pas besoin de rendez-vous.",
+      "**Notre conseil :** Chez Pneu Services 93, nous proposons un contrôle de vos pneus gratuit. Venez nous voir au 2 Rue Claude Debussy, 93800 Épinay-sur-Seine, 7j/7 de 9h à 19h. Pas besoin de rendez-vous.",
     ],
   },
   "pneus-ete-hiver-toutes-saisons-differences": {
@@ -32,7 +32,7 @@ const articleContent: Record<string, { title: string; description: string; body:
       "**Les pneus hiver** (marquage 3PMSF) sont conçus pour les températures inférieures à 7°C. Leur gomme reste souple par le froid, ce qui garantit une adhérence optimale sur neige, verglas et routes froides. Ils sont obligatoires dans certaines régions de montagne en France (loi Montagne) entre le 1er novembre et le 31 mars.",
       "**Les pneus toutes saisons** combinent des caractéristiques des deux types. Ils portent le marquage 3PMSF et sont légalement acceptés en zone montagne. Leur point fort : vous n'avez pas besoin de faire deux changements par an. Leur point faible : ils ne sont pas aussi performants qu'un pneu été en été, ni qu'un pneu hiver en hiver.",
       "**Notre recommandation pour la région parisienne :** Si vous ne quittez pas l'Île-de-France, les pneus toutes saisons (comme le Michelin CrossClimate 2) sont un excellent compromis. Si vous partez régulièrement en montagne, investissez dans deux trains : été + hiver.",
-      "Chez Pole Position — Pneus Services 93, nous stockons les trois types pour toutes les marques. Venez nous voir ou appelez-nous pour un conseil personnalisé selon votre véhicule.",
+      "Chez Pneu Services 93, nous stockons les trois types pour toutes les marques. Venez nous voir ou appelez-nous pour un conseil personnalisé selon votre véhicule.",
     ],
   },
   "meilleurs-pneus-michelin-continental-bridgestone": {
@@ -44,7 +44,7 @@ const articleContent: Record<string, { title: string; description: string; body:
       "**Continental** est le champion de la sécurité, particulièrement reconnu pour ses performances sur route mouillée et ses distances de freinage courtes. L'EcoContact 6 est l'un des pneus les plus efficaces en termes de consommation de carburant. Continental est souvent monté en première monte sur des véhicules comme la BMW ou la Mercedes.",
       "**Bridgestone** excelle dans les pneus hiver (le Blizzak LM005 est régulièrement N°1 des tests hiver) et les pneus hautes performances. Les pneus sport Bridgestone (Potenza) sont réputés pour leur tenue de route exceptionnelle. Légèrement moins silencieux que Michelin sur autoroute.",
       "**Conclusion :** Il n'y a pas de mauvais choix entre ces trois marques. Pour la longévité et la polyvalence, choisissez Michelin. Pour la sécurité sur mouillé, optez pour Continental. Pour les pneus hiver et sport, Bridgestone est imbattable.",
-      "Chez Pole Position — Pneus Services 93, nous avons ces trois marques en stock. Venez au 2 Rue Claude Debussy, 93800 Épinay-sur-Seine pour trouver le meilleur pneu au meilleur prix.",
+      "Chez Pneu Services 93, nous avons ces trois marques en stock. Venez au 2 Rue Claude Debussy, 93800 Épinay-sur-Seine pour trouver le meilleur pneu au meilleur prix.",
     ],
   },
   "freinage-quand-changer-plaquettes-disques": {
@@ -57,7 +57,7 @@ const articleContent: Record<string, { title: string; description: string; body:
       "**Le voyant de frein s'allume.** Sur les véhicules récents, un capteur d'usure électronique allume un voyant sur le tableau de bord quand les plaquettes doivent être changées. Ne l'ignorez jamais.",
       "**Vibrations lors du freinage.** Si votre véhicule vibre ou que le volant tremble quand vous freinez, vos disques sont probablement voilés ou usés de manière inégale. Un remplacement des disques (et des plaquettes en même temps) s'impose.",
       "**Durée de vie indicative :** Plaquettes avant : 30 000 à 50 000 km. Plaquettes arrière : 50 000 à 80 000 km. Disques : 80 000 à 120 000 km. Ces chiffres varient selon le style de conduite et le type de véhicule.",
-      "Chez Pole Position — Pneus Services 93, nous diagnostiquons et remplaçons vos plaquettes et disques sans rendez-vous. Venez au 2 Rue Claude Debussy, 93800 Épinay-sur-Seine, 7j/7 de 9h à 19h.",
+      "Chez Pneu Services 93, nous diagnostiquons et remplaçons vos plaquettes et disques sans rendez-vous. Venez au 2 Rue Claude Debussy, 93800 Épinay-sur-Seine, 7j/7 de 9h à 19h.",
     ],
   },
   "pneus-4x4-suv-choisir": {
@@ -69,7 +69,7 @@ const articleContent: Record<string, { title: string; description: string; body:
       "**Les meilleures marques pour SUV.** Pour les pneus routiers : Michelin Pilot Sport 4 SUV, Continental SportContact 7, Bridgestone Turanza. Pour les tout-terrain : BFGoodrich All-Terrain T/A KO2 (la référence mondiale), Falken Wildpeak AT3W, Toyo Open Country AT3.",
       "**Lire les dimensions d'un pneu SUV.** Sur un pneu 235/60 R18 : 235 = largeur en mm, 60 = hauteur de flanc (60% de 235 mm), R = radial, 18 = diamètre de jante en pouces. Plus le premier chiffre est grand, plus le pneu est large.",
       "**Attention au poids.** Les SUV et 4x4 sont des véhicules lourds. Assurez-vous que l'indice de charge de vos pneus est adapté à votre véhicule. Un pneu sous-dimensionné peut se déformer ou éclater.",
-      "Chez Pole Position — Pneus Services 93, nous avons le plus grand stock de pneus 4x4 et SUV en Seine-Saint-Denis. Venez nous voir à Épinay-sur-Seine pour un montage express.",
+      "Chez Pneu Services 93, nous avons le plus grand stock de pneus 4x4 et SUV en Seine-Saint-Denis. Venez nous voir à Épinay-sur-Seine pour un montage express.",
     ],
   },
   "vidange-huile-quand-comment": {
@@ -80,8 +80,8 @@ const articleContent: Record<string, { title: string; description: string; body:
       "**Quand faire la vidange ?** En règle générale, tous les 10 000 à 15 000 km pour les moteurs essence récents, tous les 15 000 à 20 000 km pour les diesel récents avec huile longue durée. Pour les véhicules plus anciens ou à usage intensif (taxi, VTC, livraison), une vidange tous les 7 000 à 10 000 km est recommandée.",
       "**Quel type d'huile choisir ?** Il existe trois grandes familles : huile minérale (pour véhicules anciens), huile semi-synthétique (bon compromis) et huile synthétique (pour les véhicules récents). Consultez le manuel de votre véhicule ou demandez conseil à notre équipe.",
       "**Les signes que votre huile est à changer.** Huile foncée ou noire sur la jauge (l'huile neuve est ambrée). Voyant de pression d'huile allumé. Bruit moteur plus prononcé. Consommation d'huile anormalement élevée.",
-      "**Ce qu'on fait lors d'une vidange chez Pole Position.** Vidange complète de l'ancienne huile, remplacement du filtre à huile, appoint avec l'huile adaptée à votre véhicule, contrôle de tous les niveaux (liquide de frein, liquide de refroidissement, lave-glace), inspection visuelle des pneus offerte.",
-      "Chez Pole Position — Pneus Services 93, une vidange prend moins de 30 minutes. Pas de rendez-vous, 7j/7 de 9h à 19h. 2 Rue Claude Debussy, 93800 Épinay-sur-Seine.",
+      "**Ce qu'on fait lors d'une vidange chez Pneu Services 93.** Vidange complète de l'ancienne huile, remplacement du filtre à huile, appoint avec l'huile adaptée à votre véhicule, contrôle de tous les niveaux (liquide de frein, liquide de refroidissement, lave-glace), inspection visuelle des pneus offerte.",
+      "Chez Pneu Services 93, une vidange prend moins de 30 minutes. Pas de rendez-vous, 7j/7 de 9h à 19h. 2 Rue Claude Debussy, 93800 Épinay-sur-Seine.",
     ],
   },
 };
@@ -104,12 +104,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     image: `${SITE_URL}${article.image}`,
     author: {
       "@type": "Organization",
-      name: "Pole Position — Pneus Services 93",
+      name: "Pneu Services 93",
       url: SITE_URL,
     },
     publisher: {
       "@type": "Organization",
-      name: "Pole Position — Pneus Services 93",
+      name: "Pneu Services 93",
       logo: { "@type": "ImageObject", url: `${SITE_URL}/icoa.png` },
     },
     datePublished: "2026-04-01",
@@ -119,7 +119,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 
   return {
-    title: `${content.title} | Pole Position Pneus 93`,
+    title: `${content.title} | Pneu Services 93`,
     description: content.description,
     keywords: article.keywords,
     alternates: { canonical: `${SITE_URL}/blog/${slug}` },

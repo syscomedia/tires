@@ -101,7 +101,7 @@ export default function BlogClient() {
             </h2>
             <div className="space-y-5 text-white/50 leading-relaxed font-medium">
               <p>
-                Chez <strong className="text-white">Pole Position — Pneus Services 93</strong>, situé au 2 Rue Claude Debussy, 93800 Épinay-sur-Seine, nous sommes votre expert pneus en Seine-Saint-Denis. Ouverts <strong className="text-white">7j/7 de 9h à 19h</strong>, sans rendez-vous.
+                Chez <strong className="text-white">Pneu Services 93</strong>, situé au 2 Rue Claude Debussy, 93800 Épinay-sur-Seine, nous sommes votre expert pneus en Seine-Saint-Denis. Ouverts <strong className="text-white">7j/7 de 9h à 19h</strong>, sans rendez-vous.
               </p>
               <p>
                 Nous proposons un large stock de <strong className="text-white">pneus neufs et d'occasion</strong> pour tous types de véhicules : voitures particulières, SUV, 4x4, fourgons et utilitaires. Toutes les grandes marques sont disponibles : <strong className="text-white">Michelin, Continental, Bridgestone, Goodyear, Pirelli, Dunlop, BFGoodrich, Hankook, Yokohama</strong> et bien d'autres.

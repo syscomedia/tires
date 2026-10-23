@@ -27,7 +27,7 @@ export default function FreinagePage() {
     },
     {
       title: "Réparation",
-      desc: "Un pneu ne se consulte pas uniquement en cas de grosses pannes ! Contactez POLE POSITION pour les cas de fuite légère d'air au sein de vos pneus, de chocs ou de déformations légères. Nos techniciens sauront vous aider !",
+      desc: "Un pneu ne se consulte pas uniquement en cas de grosses pannes ! Contactez PNEU SERVICES 93 pour les cas de fuite légère d'air au sein de vos pneus, de chocs ou de déformations légères. Nos techniciens sauront vous aider !",
       icon: Wrench
     },
     {
@@ -37,7 +37,7 @@ export default function FreinagePage() {
     },
     {
       title: "Conseils",
-      desc: "POLE POSITION, ce n'est pas qu'une entreprise de vente et de services. C'est avant tout des experts qui vous conseillent sur l'entretien de vos pneus et l'anticipation des risques.",
+      desc: "PNEU SERVICES 93, ce n'est pas qu'une entreprise de vente et de services. C'est avant tout des experts qui vous conseillent sur l'entretien de vos pneus et l'anticipation des risques.",
       icon: Info
     }
   ];
@@ -119,10 +119,10 @@ export default function FreinagePage() {
                   Les freins chez Jumbo, c’est une affaire d’expérience. Nous vous proposons les meilleurs prix discount sur les pneus et des prix pas cher sur une sélection de plaquettes et disques de frein.
                 </p>
                 <p>
-                  Notre opération de remplacement de freins est certifiée. À POLE POSITION, on coupe sur les prix, mais sûrement pas sur la qualité de service !
+                  Notre opération de remplacement de freins est certifiée. À PNEU SERVICES 93, on coupe sur les prix, mais sûrement pas sur la qualité de service !
                 </p>
                 <p>
-                  Découvrez quel est le centre Jumbo proche de chez vous (POLE POSITION) et passez nous voir pour votre remplacement de freins.
+                  Découvrez quel est le centre Jumbo proche de chez vous (PNEU SERVICES 93) et passez nous voir pour votre remplacement de freins.
                 </p>
               </div>
             </motion.div>
@@ -190,7 +190,7 @@ export default function FreinagePage() {
             className="glass p-6 md:p-16 rounded-[3rem] border-white/10"
           >
             <h2 className="text-3xl md:text-5xl font-display font-black text-white mb-8 uppercase italic leading-tight">
-              POLE POSITION VOUS GARANTIT <br />
+              PNEU SERVICES 93 VOUS GARANTIT <br />
               <span className="text-neon-blue text-2xl md:text-3xl">LE MEILLEUR PRIX</span>
             </h2>
             <p className="text-white/60 text-lg mb-12 font-medium leading-relaxed">
