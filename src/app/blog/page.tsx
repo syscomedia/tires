@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import BlogClient from "./BlogClient";
 
-const SITE_URL = "https://polepositionpneus.com";
+const SITE_URL = "https://pneuservices93.com";
 
 export const metadata: Metadata = {
   title: "Blog Pneus & Auto | Conseils Montage, Hiver, Entretien — Épinay-sur-Seine 93",
