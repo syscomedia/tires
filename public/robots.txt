@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://poleposition93.fr/sitemap.xml
