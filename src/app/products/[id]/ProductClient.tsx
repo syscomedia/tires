@@ -134,7 +134,7 @@ export default function ProductPage({ params }: PageProps) {
                     <span>APPELER POUR RÉSERVER</span>
                   </a>
                   <a
-                    href="https://wa.me/+330751151984"
+                    href="https://wa.me/33751257088"
                     className="glass text-white px-8 py-6 rounded-2xl font-black italic uppercase tracking-widest flex items-center justify-center space-x-3 hover:bg-white/10 transition-all border-white/5"
                   >
                     <MessageSquare className="w-6 h-6" />

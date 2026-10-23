@@ -108,7 +108,7 @@ export default function FloatingContact() {
                     <span>Appeler Direct</span>
                   </a>
                   <a
-                    href="https://wa.me/+330751151984"
+                    href="https://wa.me/33751257088"
                     className="flex items-center justify-center space-x-4 glass-green text-white py-6 rounded-3xl font-black italic uppercase tracking-widest text-sm shadow-xl shadow-green-500/20 hover:scale-[1.05] transition-all group/btn"
                   >
                     <MessageSquare className="w-6 h-6 text-green-500 group-hover/btn:scale-110 transition-transform" />

@@ -149,7 +149,7 @@ export default function Navbar() {
                   <span>APPELER</span>
                 </a>
                 <a
-                  href="https://wa.me/+330751151984"
+                  href="https://wa.me/33751257088"
                   className="flex items-center justify-center space-x-3 glass-green text-white py-4 rounded-2xl font-black italic uppercase tracking-widest text-sm shadow-lg shadow-green-500/10 transition-transform active:scale-95"
                 >
                   <MessageSquare className="w-5 h-5 text-green-500" />
