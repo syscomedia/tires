@@ -76,13 +76,13 @@ export default function Footer() {
                 <div className="bg-neon-blue/10 p-3 rounded-xl">
                   <Phone className="w-5 h-5 text-neon-blue" />
                 </div>
-                <a href="tel:0781806331" className="font-black italic text-lg tracking-tight hover:text-neon-blue transition-colors">07 81 80 63 31</a>
+                <a href="tel:0751257088" className="font-black italic text-lg tracking-tight hover:text-neon-blue transition-colors">07 51 25 70 88</a>
               </li>
               <li className="flex items-center space-x-4">
                 <div className="bg-neon-blue/10 p-3 rounded-xl">
                   <Mail className="w-5 h-5 text-neon-blue" />
                 </div>
-                <span className="hover:text-neon-blue transition-colors cursor-pointer">pneusservices93@hotmail.com</span>
+                <span className="hover:text-neon-blue transition-colors cursor-pointer">pneuservices93@gmail.com</span>
               </li>
             </ul>
           </div>

@@ -91,7 +91,7 @@ export default function Navbar() {
         {/* CTA Buttons */}
         <div className="hidden md:flex items-center space-x-4">
           <a
-            href="tel:0781806331"
+            href="tel:0751257088"
             className="flex items-center space-x-2 text-white bg-neon-blue px-4 py-2 rounded-full hover:bg-neon-blue-hover transition-all"
           >
             <Phone className="w-4 h-4" />
@@ -142,7 +142,7 @@ export default function Navbar() {
               ))}
               <div className="pt-6 flex flex-col space-y-4">
                 <a
-                  href="tel:0781806331"
+                  href="tel:0751257088"
                   className="flex items-center justify-center space-x-3 glass-blue text-white py-4 rounded-2xl font-black italic uppercase tracking-widest text-sm shadow-lg shadow-neon-blue/10 transition-transform active:scale-95"
                 >
                   <Phone className="w-5 h-5 text-neon-blue" />

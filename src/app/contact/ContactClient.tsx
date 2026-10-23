@@ -85,7 +85,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="text-[8px] md:text-[10px] font-black uppercase tracking-[0.3em] text-white/40 mb-1">Ligne Directe</p>
-                    <p className="text-white font-bold text-base md:text-lg">07 81 80 63 31</p>
+                    <p className="text-white font-bold text-base md:text-lg">07 51 25 70 88</p>
                   </div>
                 </div>
 
@@ -95,7 +95,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="text-[8px] md:text-[10px] font-black uppercase tracking-[0.3em] text-white/40 mb-1">Support Email</p>
-                    <p className="text-white font-bold text-base md:text-lg">pneusservices93@hotmail.com</p>
+                    <p className="text-white font-bold text-base md:text-lg">pneuservices93@gmail.com</p>
                   </div>
                 </div>
               </div>

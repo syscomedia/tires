@@ -28,7 +28,7 @@ const faqSchema = {
       name: "Combien coûte le montage d'un pneu ?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Le montage et l'équilibrage sont inclus dans le prix de nos pneus. Pas de frais cachés. Contactez-nous au 07 81 80 63 31 pour un devis personnalisé selon votre véhicule.",
+        text: "Le montage et l'équilibrage sont inclus dans le prix de nos pneus. Pas de frais cachés. Contactez-nous au 07 51 25 70 88 pour un devis personnalisé selon votre véhicule.",
       },
     },
     {

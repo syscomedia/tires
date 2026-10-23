@@ -99,7 +99,7 @@ export default function ArticleClient({ slug, content, article }: ArticleClientP
               Notre équipe est disponible 7j/7 de 9h à 19h au 2 Rue Claude Debussy, 93800 Épinay-sur-Seine.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="tel:+330781806331" className="inline-flex items-center justify-center space-x-3 bg-racing-red text-white px-10 py-5 rounded-full font-black uppercase italic tracking-widest hover:bg-racing-red-hover transition-all shadow-xl text-sm">
+              <a href="tel:+33751257088" className="inline-flex items-center justify-center space-x-3 bg-racing-red text-white px-10 py-5 rounded-full font-black uppercase italic tracking-widest hover:bg-racing-red-hover transition-all shadow-xl text-sm">
                 <Phone className="w-5 h-5" />
                 <span>APPELER MAINTENANT</span>
               </a>

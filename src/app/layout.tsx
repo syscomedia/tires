@@ -7,7 +7,7 @@ const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 const outfit = Outfit({ variable: "--font-outfit", subsets: ["latin"] });
 
 const SITE_URL = "https://polepositionpneus.com";
-const PHONE = "+33 9 53 43 99 99";
+const PHONE = "+33 7 51 25 70 88";
 const ADDRESS = "2 Rue Claude Debussy, 93800 Épinay-sur-Seine";
 
 // JSON-LD: LocalBusiness + AutoRepair + TireShop
@@ -21,7 +21,7 @@ const jsonLd = {
       alternateName: ["Pole Position Pneus", "Pneus Services 93", "Pneus Épinay-sur-Seine"],
       url: SITE_URL,
       telephone: PHONE,
-      email: "pneusservices93@hotmail.com",
+      email: "pneuservices93@gmail.com",
       description:
         "Spécialiste pneus à Épinay-sur-Seine (93) : montage, équilibrage, freinage, entretien rapide. Pneus neufs & occasion toutes marques. Ouvert 7j/7 de 9h à 19h.",
       address: {

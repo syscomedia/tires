@@ -124,7 +124,7 @@ export default function ServicesPage() {
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="tel:0781806331"
+                href="tel:0751257088"
                 className="bg-white text-neon-blue px-12 py-6 rounded-2xl font-black uppercase italic tracking-widest text-center shadow-xl hover:bg-neon-blue hover:text-white transition-all text-lg"
               >
                 Appeler l'Atelier

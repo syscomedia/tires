@@ -127,7 +127,7 @@ export default function ProductPage({ params }: PageProps) {
                 {/* Actions */}
                 <div className="flex flex-col sm:flex-row gap-4 mt-auto">
                   <a
-                    href="tel:0781806331"
+                    href="tel:0751257088"
                     className="flex-1 bg-neon-blue text-white py-6 rounded-2xl font-black italic uppercase tracking-widest flex items-center justify-center space-x-3 hover:bg-neon-blue-hover transition-all shadow-2xl shadow-neon-blue/20 text-lg"
                   >
                     <Phone className="w-6 h-6" />
